@@ -1,0 +1,1036 @@
+2020-03-19 14:28:07.496 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 8748 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 14:28:07.512 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 14:28:10.547 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 7778 (http)
+2020-03-19 14:28:10.563 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-7778"]
+2020-03-19 14:28:10.572 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 14:28:10.573 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 14:28:10.725 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 14:28:10.726 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2981 ms
+2020-03-19 14:28:10.859 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 14:28:11.217 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 14:28:13.049 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-19 14:28:13.467 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-7778"]
+2020-03-19 14:28:13.503 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 7778 (http) with context path ''
+2020-03-19 14:28:13.514 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 6.924 seconds (JVM running for 10.574)
+2020-03-19 14:30:38.565 INFO  [http-nio-7778-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-19 14:30:38.566 INFO  [http-nio-7778-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-19 14:30:38.581 INFO  [http-nio-7778-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 15 ms
+2020-03-19 14:32:58.555 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 10556 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 14:32:58.559 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 14:33:00.399 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 14:33:00.413 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 14:33:00.425 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 14:33:00.426 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 14:33:00.618 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 14:33:00.619 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1975 ms
+2020-03-19 14:33:00.788 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 14:33:01.103 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 14:33:02.593 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-19 14:33:02.932 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-19 14:33:02.955 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-19 14:33:02.959 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 4.888 seconds (JVM running for 6.689)
+2020-03-19 14:33:53.590 INFO  [http-nio-1000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-19 14:33:53.592 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-19 14:33:53.610 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 17 ms
+2020-03-19 14:43:30.164 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 17132 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 14:43:30.170 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 14:43:31.758 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 14:43:31.772 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 14:43:31.781 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 14:43:31.781 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 14:43:31.904 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 14:43:31.904 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1599 ms
+2020-03-19 14:43:32.012 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 14:43:32.335 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 14:43:33.737 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-19 14:43:34.059 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-19 14:43:34.084 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-19 14:43:34.087 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 4.44 seconds (JVM running for 5.984)
+2020-03-19 14:45:24.934 INFO  [http-nio-1000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-19 14:45:24.934 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-19 14:45:24.949 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 15 ms
+2020-03-19 14:48:51.674 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 20248 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 14:48:51.685 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 14:48:53.231 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 14:48:53.243 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 14:48:53.251 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 14:48:53.251 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 14:48:53.370 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 14:48:53.370 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1596 ms
+2020-03-19 14:48:53.515 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 14:48:53.886 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 14:48:55.232 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-19 14:48:55.556 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-19 14:48:55.576 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-19 14:48:55.579 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 4.601 seconds (JVM running for 6.246)
+2020-03-19 14:49:41.039 INFO  [http-nio-1000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-19 14:49:41.039 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-19 14:49:41.055 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 16 ms
+2020-03-19 14:52:44.702 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 1396 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 14:52:44.706 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 14:52:45.984 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 14:52:45.996 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 14:52:46.004 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 14:52:46.005 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 14:52:46.121 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 14:52:46.121 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1362 ms
+2020-03-19 14:52:46.231 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 14:52:46.551 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 14:52:47.938 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-19 14:52:48.260 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-19 14:52:48.281 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-19 14:52:48.283 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 4.249 seconds (JVM running for 5.802)
+2020-03-19 14:53:29.081 INFO  [http-nio-1000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-19 14:53:29.082 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-19 14:53:29.095 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 13 ms
+2020-03-19 14:54:47.978 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 9908 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 14:54:47.981 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 14:54:49.841 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 14:54:49.860 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 14:54:49.876 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 14:54:49.877 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 14:54:50.030 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 14:54:50.030 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1918 ms
+2020-03-19 14:54:50.144 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 14:54:50.451 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 14:54:51.849 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-19 14:54:52.164 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-19 14:54:52.183 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-19 14:54:52.186 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 4.702 seconds (JVM running for 6.22)
+2020-03-19 14:55:02.823 INFO  [http-nio-1000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-19 14:55:02.823 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-19 14:55:02.837 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 14 ms
+2020-03-19 14:56:16.216 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 7892 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 14:56:16.220 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 14:56:17.665 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 14:56:17.678 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 14:56:17.685 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 14:56:17.686 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 14:56:17.801 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 14:56:17.802 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1479 ms
+2020-03-19 14:56:17.925 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 14:56:18.171 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 14:56:19.712 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-19 14:56:20.059 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-19 14:56:20.079 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-19 14:56:20.082 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 4.345 seconds (JVM running for 5.847)
+2020-03-19 14:57:12.079 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 4464 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 14:57:12.163 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 14:57:13.517 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 14:57:13.530 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 14:57:13.538 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 14:57:13.539 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 14:57:13.654 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 14:57:13.654 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1434 ms
+2020-03-19 14:57:13.767 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 14:57:14.078 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 14:57:15.444 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-19 14:57:15.779 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-19 14:57:15.801 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-19 14:57:15.803 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 4.224 seconds (JVM running for 5.862)
+2020-03-19 14:57:41.815 INFO  [http-nio-1000-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-19 14:57:41.815 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-19 14:57:41.826 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 10 ms
+2020-03-19 15:00:30.097 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 19520 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 15:00:30.101 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 15:00:31.422 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 15:00:31.434 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:00:31.442 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 15:00:31.443 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 15:00:31.567 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 15:00:31.567 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1387 ms
+2020-03-19 15:00:31.679 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 15:00:32.030 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 15:00:33.420 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-19 15:00:33.770 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:00:33.790 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-19 15:00:33.793 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 4.328 seconds (JVM running for 5.873)
+2020-03-19 15:02:11.228 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 20084 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 15:02:11.232 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 15:02:12.623 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 15:02:12.635 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:02:12.643 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 15:02:12.644 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 15:02:12.764 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 15:02:12.764 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1438 ms
+2020-03-19 15:02:12.874 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 15:02:13.239 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 15:02:14.722 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-19 15:02:15.092 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:02:15.116 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-19 15:02:15.120 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 4.35 seconds (JVM running for 6.42)
+2020-03-19 15:02:33.154 INFO  [http-nio-1000-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-19 15:02:33.154 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-19 15:02:33.167 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 13 ms
+2020-03-19 15:02:33.186 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /test
+2020-03-19 15:02:33.294 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : GET
+2020-03-19 15:02:33.295 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-19 15:02:33.296 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.TestController.jsp1
+2020-03-19 15:02:33.297 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[]
+2020-03-19 15:02:33.297 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-19 15:02:33.301 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 115
+2020-03-19 15:02:33.423 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:"test"
+2020-03-19 15:02:38.714 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /test
+2020-03-19 15:02:38.715 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : GET
+2020-03-19 15:02:38.716 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-19 15:02:38.716 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.TestController.jsp1
+2020-03-19 15:02:38.717 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[]
+2020-03-19 15:02:38.717 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-19 15:02:38.717 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 3
+2020-03-19 15:02:38.718 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:"test"
+2020-03-19 15:02:40.702 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /test
+2020-03-19 15:02:40.703 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : GET
+2020-03-19 15:02:40.703 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-19 15:02:40.703 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.TestController.jsp1
+2020-03-19 15:02:40.704 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[]
+2020-03-19 15:02:40.704 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-19 15:02:40.704 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 2
+2020-03-19 15:02:40.704 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:"test"
+2020-03-19 15:04:07.923 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 21392 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 15:04:07.933 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 15:04:09.312 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 15:04:09.325 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:04:09.334 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 15:04:09.334 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 15:04:09.455 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 15:04:09.455 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1413 ms
+2020-03-19 15:04:09.574 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 15:04:09.820 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 15:04:11.263 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-19 15:04:11.599 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:04:11.619 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-19 15:04:11.622 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 4.209 seconds (JVM running for 5.814)
+2020-03-19 15:04:34.652 INFO  [http-nio-1000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-19 15:04:34.653 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-19 15:04:34.665 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 12 ms
+2020-03-19 15:04:46.944 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /hello
+2020-03-19 15:04:46.945 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : GET
+2020-03-19 15:04:46.945 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-19 15:04:46.946 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.TestController.hello
+2020-03-19 15:04:46.947 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[null]
+2020-03-19 15:04:46.947 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-19 15:04:46.950 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 7
+2020-03-19 15:04:46.982 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:"hello"
+2020-03-19 15:05:44.109 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /hello
+2020-03-19 15:05:44.110 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : GET
+2020-03-19 15:05:44.110 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-19 15:05:44.110 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.TestController.hello
+2020-03-19 15:05:44.110 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[null]
+2020-03-19 15:05:44.110 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-19 15:05:44.110 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 1
+2020-03-19 15:05:44.110 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:"hello"
+2020-03-19 15:05:45.397 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /hello
+2020-03-19 15:05:45.397 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : GET
+2020-03-19 15:05:45.398 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-19 15:05:45.398 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.TestController.hello
+2020-03-19 15:05:45.398 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[null]
+2020-03-19 15:05:45.399 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-19 15:05:45.399 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 2
+2020-03-19 15:05:45.400 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:"hello"
+2020-03-19 15:07:03.491 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 7496 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 15:07:03.495 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 15:07:04.816 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 15:07:04.829 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:07:04.837 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 15:07:04.837 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 15:07:04.959 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 15:07:04.960 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1414 ms
+2020-03-19 15:07:05.070 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 15:07:05.385 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 15:07:06.717 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-19 15:07:07.032 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:07:07.052 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-19 15:07:07.055 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 4.203 seconds (JVM running for 5.825)
+2020-03-19 15:07:08.513 INFO  [http-nio-1000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-19 15:07:08.514 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-19 15:07:08.526 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 12 ms
+2020-03-19 15:07:08.556 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /hello
+2020-03-19 15:07:08.557 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : GET
+2020-03-19 15:07:08.558 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-19 15:07:08.559 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.TestController.hello
+2020-03-19 15:07:08.560 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[null]
+2020-03-19 15:07:08.560 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-19 15:07:08.563 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 7
+2020-03-19 15:07:08.596 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:"hello"
+2020-03-19 15:08:27.627 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 596 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 15:08:27.696 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 15:08:29.096 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 15:08:29.109 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:08:29.117 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 15:08:29.117 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 15:08:29.237 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 15:08:29.237 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1451 ms
+2020-03-19 15:08:29.351 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 15:08:29.629 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 15:08:31.131 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-19 15:08:31.488 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:08:31.521 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-19 15:08:31.525 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 4.554 seconds (JVM running for 6.334)
+2020-03-19 15:08:38.849 INFO  [http-nio-1000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-19 15:08:38.850 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-19 15:08:38.864 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 14 ms
+2020-03-19 15:08:38.892 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /hello
+2020-03-19 15:08:38.894 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : GET
+2020-03-19 15:08:38.894 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-19 15:08:38.896 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.TestController.hello
+2020-03-19 15:08:38.896 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[null]
+2020-03-19 15:08:38.896 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-19 15:08:38.900 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 8
+2020-03-19 15:08:38.931 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:"hello"
+2020-03-19 15:09:57.885 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 4304 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 15:09:57.889 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 15:09:59.233 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 15:09:59.244 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:09:59.254 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 15:09:59.254 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 15:09:59.374 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 15:09:59.375 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1397 ms
+2020-03-19 15:09:59.507 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 15:09:59.771 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 15:10:01.245 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-19 15:10:01.576 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:10:01.597 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-19 15:10:01.599 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 4.438 seconds (JVM running for 6.146)
+2020-03-19 15:10:20.439 INFO  [http-nio-1000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-19 15:10:20.440 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-19 15:10:20.451 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 11 ms
+2020-03-19 15:10:54.191 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /hello
+2020-03-19 15:10:54.193 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : GET
+2020-03-19 15:10:54.195 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-19 15:10:54.197 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.TestController.hello
+2020-03-19 15:10:54.198 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[null]
+2020-03-19 15:10:54.198 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-19 15:10:54.201 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 10
+2020-03-19 15:10:54.238 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:"hello"
+2020-03-19 15:12:40.288 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 20228 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 15:12:40.292 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 15:12:41.610 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 15:12:41.627 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:12:41.636 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 15:12:41.637 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 15:12:41.756 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 15:12:41.757 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1342 ms
+2020-03-19 15:12:41.882 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 15:12:42.197 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 15:12:43.576 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-19 15:12:43.886 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:12:43.907 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-19 15:12:43.910 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 4.107 seconds (JVM running for 5.856)
+2020-03-19 15:13:16.395 INFO  [http-nio-1000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-19 15:13:16.395 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-19 15:13:16.406 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 10 ms
+2020-03-19 15:13:16.435 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /hello
+2020-03-19 15:13:16.436 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : GET
+2020-03-19 15:13:16.437 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-19 15:13:16.438 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.TestController.hello
+2020-03-19 15:13:16.439 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[null]
+2020-03-19 15:13:16.439 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-19 15:13:16.442 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 7
+2020-03-19 15:13:16.483 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:"hello"
+2020-03-19 15:14:40.811 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 17860 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 15:14:40.814 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 15:14:42.102 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 15:14:42.114 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:14:42.123 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 15:14:42.124 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 15:14:42.242 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 15:14:42.243 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1357 ms
+2020-03-19 15:14:42.369 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 15:14:42.682 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 15:14:44.037 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-19 15:14:44.361 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:14:44.381 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-19 15:14:44.384 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 4.18 seconds (JVM running for 5.661)
+2020-03-19 15:15:12.931 INFO  [http-nio-1000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-19 15:15:12.931 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-19 15:15:12.943 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 12 ms
+2020-03-19 15:15:12.975 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /hello
+2020-03-19 15:15:12.976 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : GET
+2020-03-19 15:15:12.977 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-19 15:15:12.979 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.TestController.hello
+2020-03-19 15:15:12.979 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[null]
+2020-03-19 15:15:12.979 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-19 15:15:12.983 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 8
+2020-03-19 15:15:13.017 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:"hello"
+2020-03-19 15:16:47.930 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 19672 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 15:16:47.934 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 15:16:49.786 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 15:16:49.804 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:16:49.822 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 15:16:49.822 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 15:16:49.959 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 15:16:49.959 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1973 ms
+2020-03-19 15:16:50.098 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 15:16:50.422 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 15:16:52.211 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-19 15:16:52.541 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:16:52.564 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-19 15:16:52.567 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 5.63 seconds (JVM running for 7.462)
+2020-03-19 15:17:02.689 INFO  [http-nio-1000-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-19 15:17:02.690 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-19 15:17:02.706 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 16 ms
+2020-03-19 15:17:02.743 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /hello
+2020-03-19 15:17:02.744 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : GET
+2020-03-19 15:17:02.745 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-19 15:17:02.747 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.TestController.hello
+2020-03-19 15:17:02.747 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[null]
+2020-03-19 15:17:02.748 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-19 15:17:02.751 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 8
+2020-03-19 15:17:02.803 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:"hello"
+2020-03-19 15:17:03.472 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /hello
+2020-03-19 15:17:03.473 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : GET
+2020-03-19 15:17:03.473 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-19 15:17:03.474 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.TestController.hello
+2020-03-19 15:17:03.475 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[null]
+2020-03-19 15:17:03.475 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-19 15:17:03.475 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 3
+2020-03-19 15:17:03.476 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:"hello"
+2020-03-19 15:17:04.948 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /hello
+2020-03-19 15:17:04.948 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : GET
+2020-03-19 15:17:04.949 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-19 15:17:04.949 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.TestController.hello
+2020-03-19 15:17:04.949 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[null]
+2020-03-19 15:17:04.950 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-19 15:17:04.950 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 2
+2020-03-19 15:17:04.950 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:"hello"
+2020-03-19 15:19:46.775 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 21188 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 15:19:46.778 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 15:19:48.306 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 15:19:48.320 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:19:48.327 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 15:19:48.328 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 15:19:48.449 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 15:19:48.449 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1618 ms
+2020-03-19 15:19:48.564 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 15:19:48.955 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 15:19:50.419 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-19 15:19:50.733 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:19:50.754 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-19 15:19:50.757 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 4.491 seconds (JVM running for 6.107)
+2020-03-19 15:20:02.900 INFO  [http-nio-1000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-19 15:20:02.900 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-19 15:20:02.914 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 13 ms
+2020-03-19 15:20:02.947 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /hello
+2020-03-19 15:20:02.948 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : GET
+2020-03-19 15:20:02.949 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-19 15:20:02.950 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.TestController.hello
+2020-03-19 15:20:02.951 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[null]
+2020-03-19 15:20:02.951 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-19 15:20:02.954 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 7
+2020-03-19 15:20:02.989 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:"hello"
+2020-03-19 15:21:51.845 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 10664 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 15:21:51.849 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 15:21:53.354 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 15:21:53.366 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:21:53.375 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 15:21:53.376 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 15:21:53.504 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 15:21:53.505 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1612 ms
+2020-03-19 15:21:53.637 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 15:21:53.876 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-03-19 15:21:53.904 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-19 15:29:17.358 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 19416 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 15:29:17.362 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 15:29:18.631 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 15:29:18.643 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:29:18.651 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 15:29:18.652 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 15:29:18.778 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 15:29:18.778 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1330 ms
+2020-03-19 15:29:18.911 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 15:29:20.503 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 15:29:20.508 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-03-19 15:29:20.519 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-19 15:30:08.778 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 18088 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 15:30:08.782 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 15:30:10.113 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 15:30:10.125 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:30:10.133 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 15:30:10.133 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 15:30:10.249 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 15:30:10.249 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1406 ms
+2020-03-19 15:30:10.366 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 15:30:11.736 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 15:30:11.740 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-03-19 15:30:11.751 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-19 15:31:11.659 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 14324 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 15:31:11.724 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 15:31:13.106 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 9999 (http)
+2020-03-19 15:31:13.122 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-9999"]
+2020-03-19 15:31:13.131 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 15:31:13.132 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 15:31:13.253 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 15:31:13.253 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1433 ms
+2020-03-19 15:31:13.403 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 15:31:13.715 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 15:31:15.345 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-19 15:31:15.661 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-9999"]
+2020-03-19 15:31:15.681 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 9999 (http) with context path ''
+2020-03-19 15:31:15.684 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 4.762 seconds (JVM running for 6.396)
+2020-03-19 15:31:26.220 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 7012 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 15:31:26.229 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 15:31:27.750 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 15:31:27.762 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:31:27.770 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 15:31:27.771 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 15:31:27.918 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 15:31:27.919 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1520 ms
+2020-03-19 15:31:28.037 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 15:31:28.350 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 15:31:29.710 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-19 15:31:30.053 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:31:30.074 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-19 15:31:30.077 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 4.36 seconds (JVM running for 5.956)
+2020-03-19 15:31:44.165 INFO  [http-nio-1000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-19 15:31:44.165 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-19 15:31:44.180 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 15 ms
+2020-03-19 15:31:44.209 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /hello
+2020-03-19 15:31:44.210 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : GET
+2020-03-19 15:31:44.210 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-19 15:31:44.212 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.TestController.hello
+2020-03-19 15:31:44.212 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[null]
+2020-03-19 15:31:44.213 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-19 15:31:44.216 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 7
+2020-03-19 15:31:44.249 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:"hello"
+2020-03-19 15:33:25.236 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 2012 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 15:33:25.239 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 15:33:26.579 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 15:33:26.593 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:33:26.602 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 15:33:26.602 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 15:33:26.727 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 15:33:26.727 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1440 ms
+2020-03-19 15:33:26.835 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 15:33:27.165 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 15:33:28.575 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-19 15:33:28.902 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:33:28.922 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-19 15:33:28.924 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 4.292 seconds (JVM running for 5.818)
+2020-03-19 15:33:33.494 INFO  [http-nio-1000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-19 15:33:33.494 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-19 15:33:33.507 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 13 ms
+2020-03-19 15:33:33.535 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /hello
+2020-03-19 15:33:33.536 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : GET
+2020-03-19 15:33:33.537 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-19 15:33:33.538 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.TestController.hello
+2020-03-19 15:33:33.538 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[null]
+2020-03-19 15:33:33.539 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-19 15:33:33.542 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 7
+2020-03-19 15:33:33.575 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:"hello"
+2020-03-19 15:34:27.756 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 5464 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 15:34:27.760 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 15:34:29.076 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 15:34:29.089 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:34:29.097 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 15:34:29.098 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 15:34:29.214 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 15:34:29.214 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1388 ms
+2020-03-19 15:34:29.321 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 15:34:29.650 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 15:34:31.078 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-19 15:34:31.424 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:34:31.446 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-19 15:34:31.449 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 4.32 seconds (JVM running for 6.169)
+2020-03-19 15:34:58.167 INFO  [http-nio-1000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-19 15:34:58.167 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-19 15:34:58.182 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 15 ms
+2020-03-19 15:36:20.518 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 8308 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 15:36:20.660 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 15:36:22.079 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 15:36:22.093 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:36:22.102 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 15:36:22.102 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 15:36:22.236 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 15:36:22.237 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1503 ms
+2020-03-19 15:36:22.350 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 15:36:22.666 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 15:36:24.063 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-19 15:36:24.383 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:36:24.403 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-19 15:36:24.406 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 4.518 seconds (JVM running for 6.258)
+2020-03-19 15:36:26.148 INFO  [http-nio-1000-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-19 15:36:26.149 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-19 15:36:26.171 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 22 ms
+2020-03-19 15:36:26.200 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /hello
+2020-03-19 15:36:26.201 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : GET
+2020-03-19 15:36:26.202 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-19 15:36:26.203 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.TestController.hello
+2020-03-19 15:36:26.204 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[null]
+2020-03-19 15:36:26.205 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-19 15:36:26.209 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 9
+2020-03-19 15:36:26.242 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:"hello"
+2020-03-19 15:36:43.047 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /hello
+2020-03-19 15:36:43.048 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : GET
+2020-03-19 15:36:43.048 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-19 15:36:43.048 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.TestController.hello
+2020-03-19 15:36:43.048 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[null]
+2020-03-19 15:36:43.049 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-19 15:36:43.049 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 2
+2020-03-19 15:36:43.049 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:"hello"
+2020-03-19 15:36:44.424 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /hello
+2020-03-19 15:36:44.425 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : GET
+2020-03-19 15:36:44.425 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-19 15:36:44.426 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.TestController.hello
+2020-03-19 15:36:44.426 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[null]
+2020-03-19 15:36:44.426 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-19 15:36:44.426 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 2
+2020-03-19 15:36:44.428 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:"hello"
+2020-03-19 15:36:45.846 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /hello
+2020-03-19 15:36:45.847 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : GET
+2020-03-19 15:36:45.847 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-19 15:36:45.848 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.TestController.hello
+2020-03-19 15:36:45.848 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[null]
+2020-03-19 15:36:45.848 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-19 15:36:45.849 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 3
+2020-03-19 15:36:45.849 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:"hello"
+2020-03-19 15:36:53.680 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 11532 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 15:36:53.685 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 15:36:55.063 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 15:36:55.077 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:36:55.086 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 15:36:55.086 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 15:36:55.202 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 15:36:55.202 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1394 ms
+2020-03-19 15:36:55.307 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 15:36:55.623 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 15:36:57.089 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-19 15:36:57.476 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:36:57.499 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-19 15:36:57.502 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 4.361 seconds (JVM running for 5.952)
+2020-03-19 15:37:01.095 INFO  [http-nio-1000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-19 15:37:01.096 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-19 15:37:01.108 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 12 ms
+2020-03-19 15:37:01.137 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /hello
+2020-03-19 15:37:01.138 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : GET
+2020-03-19 15:37:01.139 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-19 15:37:01.140 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.TestController.hello
+2020-03-19 15:37:01.141 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[null]
+2020-03-19 15:37:01.141 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-19 15:37:01.144 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 7
+2020-03-19 15:37:01.176 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:"hello"
+2020-03-19 15:45:14.185 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 6420 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 15:45:14.188 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 15:45:15.522 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 15:45:15.534 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:45:15.542 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 15:45:15.543 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 15:45:15.658 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 15:45:15.658 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1386 ms
+2020-03-19 15:45:15.761 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 15:45:16.080 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 15:45:17.429 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-19 15:45:17.733 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:45:17.754 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-19 15:45:17.756 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 4.033 seconds (JVM running for 5.656)
+2020-03-19 15:45:37.452 INFO  [http-nio-1000-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-19 15:45:37.453 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-19 15:45:37.463 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 10 ms
+2020-03-19 15:45:37.492 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /textException/1
+2020-03-19 15:45:37.493 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : GET
+2020-03-19 15:45:37.494 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-19 15:45:37.495 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.TestController.testExcoption
+2020-03-19 15:45:37.496 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[1]
+2020-03-19 15:45:37.496 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-19 15:45:37.499 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 7
+2020-03-19 15:45:37.722 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:{"code":20000,"msg":"操作成功"}
+2020-03-19 15:45:44.049 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /textException/2
+2020-03-19 15:45:44.050 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : GET
+2020-03-19 15:45:44.050 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-19 15:45:44.050 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.TestController.testExcoption
+2020-03-19 15:45:44.050 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[2]
+2020-03-19 15:45:44.051 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-19 15:45:56.882 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 20232 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 15:45:56.886 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 15:45:58.151 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 15:45:58.163 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:45:58.172 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 15:45:58.172 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 15:45:58.295 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 15:45:58.295 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1339 ms
+2020-03-19 15:45:58.416 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 15:45:58.728 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 15:46:00.088 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-19 15:46:00.401 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:46:00.422 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-19 15:46:00.425 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 4.109 seconds (JVM running for 5.592)
+2020-03-19 15:46:10.278 INFO  [http-nio-1000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-19 15:46:10.280 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-19 15:46:10.294 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 14 ms
+2020-03-19 15:46:10.326 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /textException/2
+2020-03-19 15:46:10.328 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : GET
+2020-03-19 15:46:10.329 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-19 15:46:10.331 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.TestController.testExcoption
+2020-03-19 15:46:10.331 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[2]
+2020-03-19 15:46:10.331 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-19 15:46:22.425 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /textException/1
+2020-03-19 15:46:22.426 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : GET
+2020-03-19 15:46:22.426 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-19 15:46:22.427 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.TestController.testExcoption
+2020-03-19 15:46:22.427 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[1]
+2020-03-19 15:46:22.427 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-19 15:46:22.428 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 3
+2020-03-19 15:46:22.503 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:{"code":20000,"msg":"操作成功"}
+2020-03-19 15:49:17.219 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 10852 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 15:49:17.227 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 15:49:18.648 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 15:49:18.664 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:49:18.672 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 15:49:18.673 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 15:49:18.791 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 15:49:18.791 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1452 ms
+2020-03-19 15:49:18.902 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 15:49:19.224 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 15:49:20.577 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-19 15:49:20.880 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:49:20.900 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-19 15:49:20.903 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 4.141 seconds (JVM running for 5.632)
+2020-03-19 15:49:50.280 INFO  [http-nio-1000-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-19 15:49:50.280 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-19 15:49:50.291 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 10 ms
+2020-03-19 15:49:50.318 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /textException/1
+2020-03-19 15:49:50.320 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : GET
+2020-03-19 15:49:50.321 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-19 15:49:50.322 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.TestController.testExcoption
+2020-03-19 15:49:50.323 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[1]
+2020-03-19 15:49:50.323 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-19 15:49:50.327 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 9
+2020-03-19 15:49:50.380 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:{"code":20000,"msg":"操作成功"}
+2020-03-19 15:50:50.348 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 21156 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 15:50:50.353 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 15:50:51.650 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 15:50:51.662 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:50:51.670 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 15:50:51.671 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 15:50:51.794 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 15:50:51.795 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1333 ms
+2020-03-19 15:50:51.930 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 15:50:52.257 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 15:50:53.660 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-19 15:50:53.995 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:50:54.017 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-19 15:50:54.020 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 4.258 seconds (JVM running for 5.827)
+2020-03-19 15:51:09.463 INFO  [http-nio-1000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-19 15:51:09.463 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-19 15:51:09.476 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 12 ms
+2020-03-19 15:51:09.503 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /textException/1
+2020-03-19 15:51:09.504 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : GET
+2020-03-19 15:51:09.505 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-19 15:51:09.506 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.TestController.testExcoption
+2020-03-19 15:51:09.506 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[1]
+2020-03-19 15:51:09.507 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-19 15:51:09.511 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 9
+2020-03-19 15:51:09.560 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:{"code":20000,"msg":"操作成功"}
+2020-03-19 15:54:09.055 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 9740 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 15:54:09.060 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 15:54:10.412 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 15:54:10.426 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:54:10.434 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 15:54:10.435 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 15:54:10.663 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 15:54:10.664 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1495 ms
+2020-03-19 15:54:10.769 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 15:54:10.983 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-03-19 15:54:10.999 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-19 15:54:54.028 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 20268 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 15:54:54.032 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 15:54:55.330 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 15:54:55.343 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:54:55.352 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 15:54:55.352 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 15:54:55.470 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 15:54:55.471 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1329 ms
+2020-03-19 15:54:55.583 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 15:54:55.809 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-03-19 15:54:55.825 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-19 15:55:34.809 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 21208 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 15:55:34.813 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 15:55:36.031 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 15:55:36.044 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:55:36.053 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 15:55:36.053 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 15:55:36.170 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 15:55:36.171 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1299 ms
+2020-03-19 15:55:36.283 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 15:55:37.677 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 15:55:37.682 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-03-19 15:55:37.693 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-19 15:56:34.338 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 19972 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 15:56:34.342 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 15:56:35.555 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 15:56:35.568 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:56:35.578 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 15:56:35.578 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 15:56:35.709 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 15:56:35.709 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1314 ms
+2020-03-19 15:56:35.817 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 15:56:37.218 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 15:56:37.224 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-03-19 15:56:37.235 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-19 15:57:04.430 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 3976 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 15:57:04.434 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 15:57:05.600 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 15:57:05.611 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:57:05.619 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 15:57:05.620 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 15:57:05.740 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 15:57:05.741 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1267 ms
+2020-03-19 15:57:05.863 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 15:57:07.234 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 15:57:07.240 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-03-19 15:57:07.250 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-19 15:57:19.156 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 19144 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 15:57:19.160 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 15:57:20.520 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 15:57:20.533 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 15:57:20.541 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 15:57:20.542 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 15:57:20.672 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 15:57:20.673 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1400 ms
+2020-03-19 15:57:20.787 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 15:57:22.157 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 15:57:22.162 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-03-19 15:57:22.172 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-19 16:25:27.493 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 16836 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 16:25:27.534 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 16:25:29.070 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 16:25:29.082 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 16:25:29.091 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 16:25:29.091 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 16:25:29.548 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 16:25:29.548 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1976 ms
+2020-03-19 16:25:29.667 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 16:25:31.418 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 16:25:31.424 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-03-19 16:25:31.435 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-19 16:26:41.283 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 16968 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 16:26:41.287 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 16:26:42.738 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 16:26:42.751 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 16:26:42.759 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 16:26:42.760 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 16:26:42.900 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 16:26:42.901 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1572 ms
+2020-03-19 16:26:43.028 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 16:26:44.548 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 16:26:44.554 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-03-19 16:26:44.566 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-19 16:28:00.472 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 14996 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 16:28:00.476 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 16:28:01.744 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 16:28:01.759 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 16:28:01.766 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 16:28:01.767 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 16:28:01.887 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 16:28:01.887 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1289 ms
+2020-03-19 16:28:02.000 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 16:28:03.395 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 16:28:03.401 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-03-19 16:28:03.411 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-19 16:30:46.204 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 22212 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 16:30:46.208 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 16:30:47.490 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 16:30:47.507 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 16:30:47.516 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 16:30:47.517 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 16:30:47.642 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 16:30:47.642 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1366 ms
+2020-03-19 16:30:47.764 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 16:30:49.218 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 16:30:49.224 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-03-19 16:30:49.234 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-19 16:32:23.716 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 21100 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 16:32:23.721 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 16:32:25.060 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 16:32:25.074 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 16:32:25.084 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 16:32:25.084 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 16:32:25.223 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 16:32:25.224 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1443 ms
+2020-03-19 16:32:25.370 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 16:32:26.815 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 16:32:26.820 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-03-19 16:32:26.830 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-19 16:33:24.328 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 22432 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 16:33:24.332 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 16:33:25.957 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 16:33:25.972 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 16:33:25.979 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 16:33:25.980 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 16:33:26.150 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 16:33:26.150 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1681 ms
+2020-03-19 16:33:26.284 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 16:33:27.850 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 16:33:27.856 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-03-19 16:33:27.866 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-19 16:35:41.861 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 21960 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 16:35:41.865 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 16:35:43.218 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 16:35:43.231 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 16:35:43.239 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 16:35:43.240 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 16:35:43.368 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 16:35:43.369 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1422 ms
+2020-03-19 16:35:43.494 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 16:35:44.908 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 16:35:44.913 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-03-19 16:35:44.923 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-19 16:37:06.600 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 9740 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 16:37:06.606 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 16:37:07.846 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 16:37:07.858 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 16:37:07.866 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 16:37:07.866 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 16:37:07.988 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 16:37:07.989 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1322 ms
+2020-03-19 16:37:08.107 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 16:37:09.496 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 16:37:09.501 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-03-19 16:37:09.511 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-19 16:38:38.139 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 12972 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 16:38:38.144 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 16:38:39.793 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 16:38:39.805 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 16:38:39.813 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 16:38:39.813 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 16:38:39.952 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 16:38:39.952 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1670 ms
+2020-03-19 16:38:40.093 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 16:38:40.543 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 16:38:40.549 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-03-19 16:38:40.558 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-19 16:41:32.406 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 18932 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 16:41:32.410 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 16:41:33.778 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 16:41:33.789 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 16:41:33.797 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 16:41:33.798 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 16:41:33.919 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 16:41:33.919 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1411 ms
+2020-03-19 16:41:34.029 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 16:41:34.363 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 16:41:35.808 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-19 16:41:36.134 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-19 16:41:36.155 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-19 16:41:36.157 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 4.44 seconds (JVM running for 6.126)
+2020-03-19 16:41:46.304 INFO  [http-nio-1000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-19 16:41:46.305 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-19 16:41:46.317 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 12 ms
+2020-03-19 16:41:46.344 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /textException/1
+2020-03-19 16:41:46.345 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : GET
+2020-03-19 16:41:46.346 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-19 16:41:46.347 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.TestController.testExcoption
+2020-03-19 16:41:46.348 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[1]
+2020-03-19 16:41:46.348 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-19 16:41:46.351 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 8
+2020-03-19 16:41:46.407 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:{"code":20000,"msg":"操作成功"}
+2020-03-19 16:45:48.047 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 22104 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 16:45:48.051 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 16:45:49.292 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 16:45:49.305 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 16:45:49.315 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 16:45:49.315 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 16:45:49.436 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 16:45:49.437 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1280 ms
+2020-03-19 16:45:49.565 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 16:45:49.943 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 16:45:51.417 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-19 16:45:51.760 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-19 16:45:51.780 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-19 16:45:51.783 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 4.287 seconds (JVM running for 5.831)
+2020-03-19 16:45:54.920 INFO  [http-nio-1000-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-19 16:45:54.921 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-19 16:45:54.934 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 13 ms
+2020-03-19 16:45:54.961 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /textException/1
+2020-03-19 16:45:54.963 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : GET
+2020-03-19 16:45:54.964 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-19 16:45:54.966 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.TestController.testExcoption
+2020-03-19 16:45:54.966 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[1]
+2020-03-19 16:45:54.966 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-19 16:45:54.969 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 8
+2020-03-19 16:45:55.025 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:{"code":20000,"msg":"操作成功"}
+2020-03-19 16:48:32.520 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 18380 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 16:48:32.524 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 16:48:34.111 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 16:48:34.129 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 16:48:34.139 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 16:48:34.140 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 16:48:34.265 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 16:48:34.265 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1637 ms
+2020-03-19 16:48:34.378 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 16:48:34.716 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 16:48:36.285 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-19 16:48:36.603 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-19 16:48:36.624 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-19 16:48:36.628 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 4.769 seconds (JVM running for 6.424)
+2020-03-19 16:48:40.416 INFO  [http-nio-1000-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-19 16:48:40.416 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-19 16:48:40.433 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 16 ms
+2020-03-19 16:48:40.466 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /textException/1
+2020-03-19 16:48:40.468 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : GET
+2020-03-19 16:48:40.469 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-19 16:48:40.471 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.TestController.testExcoption
+2020-03-19 16:48:40.471 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[1]
+2020-03-19 16:48:40.472 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-19 16:48:40.476 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 10
+2020-03-19 16:48:40.537 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:{"code":20000,"msg":"操作成功"}
+2020-03-19 16:50:41.380 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 17752 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-19 16:50:41.383 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-19 16:50:42.628 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-19 16:50:42.639 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-19 16:50:42.647 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-19 16:50:42.647 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-19 16:50:42.764 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-19 16:50:42.765 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1306 ms
+2020-03-19 16:50:42.870 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-19 16:50:43.181 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-19 16:50:44.539 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-19 16:50:44.870 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-19 16:50:44.888 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-19 16:50:44.891 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 4.198 seconds (JVM running for 5.954)
+2020-03-19 16:52:27.282 INFO  [http-nio-1000-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-19 16:52:27.282 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-19 16:52:27.295 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 12 ms
+2020-03-19 16:52:27.323 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /textException/1
+2020-03-19 16:52:27.324 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : GET
+2020-03-19 16:52:27.324 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-19 16:52:27.326 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.TestController.testExcoption
+2020-03-19 16:52:27.326 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[1]
+2020-03-19 16:52:27.327 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-19 16:52:27.331 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 9
+2020-03-19 16:52:27.388 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:{"code":20000,"msg":"操作成功"}

@@ -1,0 +1,725 @@
+2020-03-24 21:10:44.278 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 23680 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-24 21:10:44.299 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-24 21:10:46.890 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.jg.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$8f207d0c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:10:46.906 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.jg.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:10:48.328 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:10:48.403 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:10:49.259 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-24 21:10:49.296 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-24 21:10:49.310 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-24 21:10:49.311 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 21:10:49.527 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-24 21:10:49.528 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 5036 ms
+2020-03-24 21:10:49.698 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-24 21:10:50.112 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-24 21:10:53.285 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-24 21:10:53.312 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-24 21:10:53.317 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 10.225 seconds (JVM running for 12.989)
+2020-03-24 21:13:05.833 INFO  [http-nio-1000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-24 21:13:05.834 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-24 21:13:05.856 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 22 ms
+2020-03-24 21:32:15.963 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 12524 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-24 21:32:15.969 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-24 21:32:17.817 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.jg.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$beb116e0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:32:17.831 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.jg.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:32:18.718 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:32:18.752 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:32:19.057 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-24 21:32:19.068 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-24 21:32:19.076 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-24 21:32:19.076 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 21:32:19.214 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-24 21:32:19.215 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 3066 ms
+2020-03-24 21:32:19.429 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-24 21:32:19.822 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-24 21:32:21.589 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-24 21:32:21.627 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-24 21:32:21.632 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 6.38 seconds (JVM running for 8.128)
+2020-03-24 21:32:45.640 INFO  [http-nio-1000-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-24 21:32:45.641 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-24 21:32:45.660 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 19 ms
+2020-03-24 21:36:10.678 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 9812 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-24 21:36:10.682 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-24 21:36:12.074 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.jg.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$21869eee] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:36:12.088 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.jg.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:36:13.108 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:36:13.151 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:36:13.466 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-24 21:36:13.479 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-24 21:36:13.489 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-24 21:36:13.490 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 21:36:13.634 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-24 21:36:13.634 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2852 ms
+2020-03-24 21:36:13.840 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-24 21:36:14.127 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-24 21:36:15.924 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-24 21:36:15.950 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-24 21:36:15.953 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 6.169 seconds (JVM running for 7.879)
+2020-03-24 21:36:42.213 INFO  [http-nio-1000-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-24 21:36:42.213 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-24 21:36:42.235 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 22 ms
+2020-03-24 21:36:58.891 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 8176 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-24 21:36:58.895 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-24 21:37:00.228 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.jg.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$d15630f0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:37:00.247 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.jg.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:37:01.243 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:37:01.304 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:37:01.865 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-24 21:37:01.879 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-24 21:37:01.890 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-24 21:37:01.891 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 21:37:02.134 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-24 21:37:02.134 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 3156 ms
+2020-03-24 21:37:02.296 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-24 21:37:02.623 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-24 21:37:09.204 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 17972 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-24 21:37:09.208 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-24 21:37:10.923 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.jg.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$a8164dd5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:37:10.941 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.jg.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:37:12.056 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:37:12.123 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:37:12.591 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-24 21:37:12.608 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-24 21:37:12.621 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-24 21:37:12.622 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 21:37:12.887 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-24 21:37:12.888 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 3593 ms
+2020-03-24 21:37:13.060 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-24 21:37:13.390 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-24 21:37:15.379 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-24 21:37:15.410 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-24 21:37:15.415 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 7.258 seconds (JVM running for 9.881)
+2020-03-24 21:37:18.859 INFO  [http-nio-1000-exec-3]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-24 21:37:18.859 INFO  [http-nio-1000-exec-3]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-24 21:37:18.902 INFO  [http-nio-1000-exec-3]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 43 ms
+2020-03-24 21:37:28.087 INFO  [Thread-18]o.s.jmx.export.annotation.AnnotationMBeanExporter.doUnregister:211 -Could not unregister MBean [com.github.tobato.fastdfs.domain.conn:name=fdfsConnectionPool,type=FdfsConnectionPool] as said MBean is not registered (perhaps already unregistered by an external process)
+2020-03-24 21:37:28.095 INFO  [Thread-18]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed
+2020-03-24 21:37:34.868 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 23768 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-24 21:37:34.874 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-24 21:37:41.473 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 13060 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-24 21:37:41.478 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-24 21:37:42.798 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.jg.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$7fa3cdd6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:37:42.815 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.jg.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:37:43.759 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:37:43.798 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:37:44.173 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-24 21:37:44.189 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-24 21:37:44.198 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-24 21:37:44.198 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 21:37:44.442 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-24 21:37:44.443 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2877 ms
+2020-03-24 21:37:44.604 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-24 21:37:44.920 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-24 21:37:46.836 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-24 21:37:46.879 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-24 21:37:46.884 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 6.552 seconds (JVM running for 8.226)
+2020-03-24 21:38:14.975 INFO  [http-nio-1000-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-24 21:38:14.976 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-24 21:38:15.001 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 24 ms
+2020-03-24 21:38:19.622 INFO  [Thread-16]o.s.jmx.export.annotation.AnnotationMBeanExporter.doUnregister:211 -Could not unregister MBean [com.github.tobato.fastdfs.domain.conn:name=fdfsConnectionPool,type=FdfsConnectionPool] as said MBean is not registered (perhaps already unregistered by an external process)
+2020-03-24 21:38:19.626 INFO  [Thread-16]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed
+2020-03-24 21:38:24.620 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 20028 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-24 21:38:24.631 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-24 21:38:25.984 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.jg.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$7896a897] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:38:26.002 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.jg.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:38:26.909 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:38:26.947 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:38:27.428 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-24 21:38:27.444 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-24 21:38:27.452 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-24 21:38:27.453 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 21:38:27.713 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-24 21:38:27.713 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 3027 ms
+2020-03-24 21:38:27.894 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-24 21:38:35.303 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 15828 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-24 21:38:35.360 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-24 21:38:38.072 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.jg.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$ff01b9e0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:38:38.098 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.jg.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:38:39.178 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:38:39.228 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:38:39.755 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-24 21:38:39.775 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-24 21:38:39.788 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-24 21:38:39.788 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 21:38:40.109 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-24 21:38:40.109 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 4594 ms
+2020-03-24 21:38:40.324 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-24 21:38:40.738 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-24 21:38:42.988 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-24 21:38:43.019 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-24 21:38:43.023 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 9.243 seconds (JVM running for 11.514)
+2020-03-24 21:38:46.291 INFO  [http-nio-1000-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-24 21:38:46.291 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-24 21:38:46.317 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 26 ms
+2020-03-24 21:39:41.807 INFO  [Thread-20]o.s.jmx.export.annotation.AnnotationMBeanExporter.doUnregister:211 -Could not unregister MBean [com.github.tobato.fastdfs.domain.conn:name=fdfsConnectionPool,type=FdfsConnectionPool] as said MBean is not registered (perhaps already unregistered by an external process)
+2020-03-24 21:39:41.811 INFO  [Thread-20]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed
+2020-03-24 21:39:46.697 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 6476 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-24 21:39:46.703 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-24 21:39:48.199 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.jg.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$7fbd300f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:39:48.218 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.jg.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:39:49.146 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:39:49.191 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:39:49.567 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-24 21:39:49.581 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-24 21:39:49.591 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-24 21:39:49.592 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 21:39:49.825 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-24 21:39:49.828 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2941 ms
+2020-03-24 21:39:49.981 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-24 21:39:50.316 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-24 21:39:52.280 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-24 21:39:52.309 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-24 21:39:52.313 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 6.748 seconds (JVM running for 8.878)
+2020-03-24 21:40:16.396 INFO  [Thread-16]o.s.jmx.export.annotation.AnnotationMBeanExporter.doUnregister:211 -Could not unregister MBean [com.github.tobato.fastdfs.domain.conn:name=fdfsConnectionPool,type=FdfsConnectionPool] as said MBean is not registered (perhaps already unregistered by an external process)
+2020-03-24 21:40:16.400 INFO  [Thread-16]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed
+2020-03-24 21:40:48.200 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 20280 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-24 21:40:48.203 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-24 21:40:49.485 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.jg.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$80387a60] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:40:49.500 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.jg.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:40:50.403 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:40:50.435 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:40:50.741 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-24 21:40:50.755 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-24 21:40:50.765 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-24 21:40:50.766 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 21:40:50.918 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-24 21:40:50.919 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2621 ms
+2020-03-24 21:40:51.126 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-24 21:40:51.462 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-24 21:40:53.226 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-24 21:40:53.248 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-24 21:40:53.251 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 5.758 seconds (JVM running for 7.834)
+2020-03-24 21:40:57.691 INFO  [http-nio-1000-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-24 21:40:57.691 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-24 21:40:57.711 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 19 ms
+2020-03-24 21:43:05.405 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 18536 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-24 21:43:05.413 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-24 21:43:07.424 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.jg.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$17fea2fe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:43:07.438 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.jg.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:43:08.382 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:43:08.413 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:43:08.716 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-24 21:43:08.733 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-24 21:43:08.743 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-24 21:43:08.744 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 21:43:08.903 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-24 21:43:08.903 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 3380 ms
+2020-03-24 21:43:09.098 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-24 21:43:09.391 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-24 21:43:11.175 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-24 21:43:11.196 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-24 21:43:11.200 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 6.479 seconds (JVM running for 8.015)
+2020-03-24 21:43:31.876 INFO  [http-nio-1000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-24 21:43:31.876 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-24 21:43:31.899 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 23 ms
+2020-03-24 21:44:19.615 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 20424 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-24 21:44:19.622 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-24 21:44:21.198 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.jg.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$54033a5a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:44:21.223 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.jg.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:44:22.321 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:44:22.363 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:44:22.706 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-24 21:44:22.720 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-24 21:44:22.729 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-24 21:44:22.729 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 21:44:22.878 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-24 21:44:22.878 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 3140 ms
+2020-03-24 21:44:23.115 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-24 21:44:23.427 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-24 21:44:25.384 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-24 21:44:25.408 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-24 21:44:25.411 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 6.648 seconds (JVM running for 8.335)
+2020-03-24 21:44:33.074 INFO  [http-nio-1000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-24 21:44:33.075 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-24 21:44:33.105 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 30 ms
+2020-03-24 21:46:29.734 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 3264 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-24 21:46:29.742 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-24 21:46:30.898 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.jg.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$ff8e9d94] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:46:30.914 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.jg.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:46:31.793 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:46:31.825 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:46:32.132 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-24 21:46:32.156 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-24 21:46:32.164 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-24 21:46:32.165 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 21:46:32.353 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-24 21:46:32.353 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2567 ms
+2020-03-24 21:46:32.487 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-24 21:46:32.804 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-24 21:46:34.534 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-24 21:46:34.559 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-24 21:46:34.562 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 5.466 seconds (JVM running for 7.441)
+2020-03-24 21:46:42.304 INFO  [http-nio-1000-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-24 21:46:42.306 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-24 21:46:42.326 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 20 ms
+2020-03-24 21:47:32.240 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 17580 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-24 21:47:32.244 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-24 21:47:33.548 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.jg.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$1fd6a26b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:47:33.565 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.jg.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:47:34.555 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:47:34.590 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:47:34.944 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-24 21:47:34.960 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-24 21:47:34.970 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-24 21:47:34.971 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 21:47:35.176 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-24 21:47:35.177 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2788 ms
+2020-03-24 21:47:35.308 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-24 21:47:35.601 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-24 21:47:37.453 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-24 21:47:37.482 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-24 21:47:37.487 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 5.983 seconds (JVM running for 7.416)
+2020-03-24 21:48:02.864 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 16220 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-24 21:48:02.873 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-24 21:48:04.346 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.jg.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$c34023fb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:48:04.359 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.jg.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:48:05.261 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:48:05.301 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:48:05.615 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-24 21:48:05.629 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-24 21:48:05.636 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-24 21:48:05.636 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 21:48:05.839 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-24 21:48:05.840 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2903 ms
+2020-03-24 21:48:05.967 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-24 21:48:06.265 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-24 21:48:08.375 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-24 21:48:08.397 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-24 21:48:08.400 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 6.297 seconds (JVM running for 7.765)
+2020-03-24 21:48:12.347 INFO  [http-nio-1000-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-24 21:48:12.348 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-24 21:48:12.367 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 19 ms
+2020-03-24 21:49:10.257 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 14708 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-24 21:49:10.263 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-24 21:49:12.450 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.jg.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$b3fbde95] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:49:12.473 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.jg.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:49:13.786 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:49:13.836 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:49:14.310 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-24 21:49:14.331 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-24 21:49:14.372 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-24 21:49:14.373 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 21:49:14.629 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-24 21:49:14.630 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 4216 ms
+2020-03-24 21:49:15.011 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-24 21:49:15.514 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-24 21:49:17.960 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-24 21:49:17.992 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-24 21:49:17.996 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 8.617 seconds (JVM running for 10.583)
+2020-03-24 21:49:18.147 INFO  [http-nio-1000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-24 21:49:18.148 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-24 21:49:18.172 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 24 ms
+2020-03-24 21:59:29.769 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 5944 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-24 21:59:29.882 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-24 21:59:32.120 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.jg.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$9f48a824] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:59:32.136 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.jg.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:59:33.259 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:59:33.294 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 21:59:33.664 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-24 21:59:33.683 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-24 21:59:33.696 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-24 21:59:33.696 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 21:59:33.876 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-24 21:59:33.878 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 3833 ms
+2020-03-24 21:59:34.126 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-24 21:59:34.505 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-24 21:59:36.491 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-24 21:59:36.514 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-24 21:59:36.517 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 7.702 seconds (JVM running for 9.716)
+2020-03-24 21:59:49.731 INFO  [http-nio-1000-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-24 21:59:49.732 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-24 21:59:49.752 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 20 ms
+2020-03-24 22:01:05.989 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 4564 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-24 22:01:05.993 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-24 22:01:07.287 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.jg.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$19903628] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:01:07.300 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.jg.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:01:08.137 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:01:08.169 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:01:08.472 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-24 22:01:08.486 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-24 22:01:08.496 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-24 22:01:08.496 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 22:01:08.693 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-24 22:01:08.694 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2516 ms
+2020-03-24 22:01:08.815 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-24 22:01:09.121 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-24 22:01:10.870 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-24 22:01:10.896 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-24 22:01:10.899 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 5.551 seconds (JVM running for 6.887)
+2020-03-24 22:01:15.836 INFO  [http-nio-1000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-24 22:01:15.838 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-24 22:01:15.860 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 20 ms
+2020-03-24 22:04:55.853 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 24492 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-24 22:04:55.870 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-24 22:04:57.056 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.jg.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$df31d347] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:04:57.069 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.jg.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:04:58.018 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:04:58.054 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:04:58.394 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-24 22:04:58.407 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-24 22:04:58.414 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-24 22:04:58.415 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 22:04:58.553 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-24 22:04:58.553 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2580 ms
+2020-03-24 22:04:58.760 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-24 22:04:59.072 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-24 22:05:01.020 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-24 22:05:01.050 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-24 22:05:01.054 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 5.873 seconds (JVM running for 7.296)
+2020-03-24 22:05:20.199 INFO  [http-nio-1000-exec-3]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-24 22:05:20.200 INFO  [http-nio-1000-exec-3]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-24 22:05:20.238 INFO  [http-nio-1000-exec-3]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 38 ms
+2020-03-24 22:08:19.374 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 13644 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-24 22:08:19.378 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-24 22:08:20.624 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.jg.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$c9a049ad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:08:20.638 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.jg.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:08:21.473 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:08:21.504 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:08:21.813 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-24 22:08:21.824 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-24 22:08:21.833 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-24 22:08:21.833 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 22:08:22.035 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-24 22:08:22.036 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2512 ms
+2020-03-24 22:08:22.166 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-24 22:08:22.468 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-24 22:08:24.195 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-24 22:08:24.216 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-24 22:08:24.219 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 5.415 seconds (JVM running for 6.75)
+2020-03-24 22:08:30.034 INFO  [http-nio-1000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-24 22:08:30.038 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-24 22:08:30.062 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 24 ms
+2020-03-24 22:09:14.083 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 18656 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-24 22:09:14.086 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-24 22:09:15.576 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.jg.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$94933185] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:09:15.595 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.jg.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:09:16.594 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:09:16.631 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:09:16.968 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-24 22:09:16.993 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-24 22:09:17.001 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-24 22:09:17.002 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 22:09:17.208 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-24 22:09:17.209 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 3023 ms
+2020-03-24 22:09:17.344 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-24 22:09:17.648 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-24 22:09:19.411 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-24 22:09:19.435 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-24 22:09:19.438 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 6.097 seconds (JVM running for 7.857)
+2020-03-24 22:09:34.344 INFO  [http-nio-1000-exec-3]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-24 22:09:34.345 INFO  [http-nio-1000-exec-3]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-24 22:09:34.369 INFO  [http-nio-1000-exec-3]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 23 ms
+2020-03-24 22:12:06.595 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 20248 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-24 22:12:06.599 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-24 22:12:07.955 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.jg.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$c95d40d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:12:07.970 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.jg.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:12:09.393 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:12:09.424 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:12:09.778 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-24 22:12:09.794 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-24 22:12:09.812 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-24 22:12:09.812 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 22:12:10.022 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-24 22:12:10.023 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 3320 ms
+2020-03-24 22:12:10.211 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-24 22:12:10.577 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-24 22:12:12.837 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-24 22:12:12.869 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-24 22:12:12.872 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 6.964 seconds (JVM running for 8.863)
+2020-03-24 22:12:22.062 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 5344 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-24 22:12:22.066 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-24 22:12:23.924 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.jg.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$3471a8f8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:12:23.943 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.jg.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:12:25.149 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:12:25.195 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:12:25.659 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-24 22:12:25.678 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-24 22:12:25.690 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-24 22:12:25.691 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 22:12:25.905 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-24 22:12:25.905 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 3696 ms
+2020-03-24 22:12:26.186 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-24 22:12:26.627 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-24 22:12:29.202 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-24 22:12:29.237 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-24 22:12:29.243 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 7.828 seconds (JVM running for 9.583)
+2020-03-24 22:12:32.193 INFO  [http-nio-1000-exec-6]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-24 22:12:32.194 INFO  [http-nio-1000-exec-6]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-24 22:12:32.214 INFO  [http-nio-1000-exec-6]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 20 ms
+2020-03-24 22:15:54.371 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 18048 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-24 22:15:54.375 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-24 22:15:56.353 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.jg.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$8ce658ca] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:15:56.377 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.jg.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:15:57.548 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:15:57.616 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:15:58.248 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-24 22:15:58.267 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-24 22:15:58.278 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-24 22:15:58.279 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 22:15:58.518 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-24 22:15:58.519 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 4025 ms
+2020-03-24 22:15:58.828 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-24 22:15:59.301 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-24 22:16:01.961 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-24 22:16:01.998 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-24 22:16:02.001 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 8.169 seconds (JVM running for 9.538)
+2020-03-24 22:16:02.532 INFO  [http-nio-1000-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-24 22:16:02.533 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-24 22:16:02.556 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 23 ms
+2020-03-24 22:17:03.913 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 22704 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-24 22:17:03.917 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-24 22:17:05.637 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.jg.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$53e0c55f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:17:05.649 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.jg.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:17:06.520 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:17:06.559 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:17:06.907 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-24 22:17:06.921 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-24 22:17:06.930 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-24 22:17:06.931 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 22:17:07.071 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-24 22:17:07.071 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 3030 ms
+2020-03-24 22:17:07.305 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-24 22:17:07.597 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-24 22:17:09.129 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-24 22:17:09.153 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-24 22:17:09.156 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 6.026 seconds (JVM running for 7.438)
+2020-03-24 22:17:15.614 INFO  [http-nio-1000-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-24 22:17:15.615 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-24 22:17:15.636 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 21 ms
+2020-03-24 22:21:51.495 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 2892 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-24 22:21:51.541 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-24 22:21:52.544 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.jg.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$e1128dc1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:21:52.558 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.jg.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:21:53.478 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:21:53.515 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:21:53.856 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-24 22:21:53.868 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-24 22:21:53.877 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-24 22:21:53.877 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 22:21:54.035 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-24 22:21:54.036 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2454 ms
+2020-03-24 22:21:54.234 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-24 22:21:54.553 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-24 22:21:57.610 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-24 22:21:57.640 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-24 22:21:57.644 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 6.684 seconds (JVM running for 8.044)
+2020-03-24 22:22:00.319 INFO  [http-nio-1000-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-24 22:22:00.320 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-24 22:22:00.340 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 20 ms
+2020-03-24 22:23:25.506 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 6936 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-24 22:23:25.510 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-24 22:23:26.545 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.jg.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$f5076df6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:23:26.559 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.jg.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:23:27.604 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:23:27.650 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:23:28.033 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-24 22:23:28.051 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-24 22:23:28.074 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-24 22:23:28.075 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 22:23:28.334 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-24 22:23:28.335 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2774 ms
+2020-03-24 22:23:28.515 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-24 22:23:29.008 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-24 22:23:31.533 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-24 22:23:31.564 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-24 22:23:31.568 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 6.741 seconds (JVM running for 8.462)
+2020-03-24 22:23:31.954 INFO  [http-nio-1000-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-24 22:23:31.955 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-24 22:23:31.977 INFO  [http-nio-1000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 21 ms
+2020-03-24 22:25:21.377 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 11388 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-24 22:25:21.380 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-24 22:25:22.720 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.jg.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$8eb682e4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:25:22.734 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.jg.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:25:23.703 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:25:23.734 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:25:24.028 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-24 22:25:24.039 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-24 22:25:24.047 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-24 22:25:24.047 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 22:25:24.171 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-24 22:25:24.172 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2703 ms
+2020-03-24 22:25:24.350 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-24 22:25:24.639 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-24 22:25:26.604 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-24 22:25:26.633 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-24 22:25:26.637 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 6.032 seconds (JVM running for 7.414)
+2020-03-24 22:25:34.695 INFO  [http-nio-1000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-24 22:25:34.696 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-24 22:25:34.714 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 18 ms
+2020-03-24 22:26:46.746 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /admin/login
+2020-03-24 22:26:46.749 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : POST
+2020-03-24 22:26:46.749 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-24 22:26:46.751 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.AdminController.login
+2020-03-24 22:26:46.752 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]
+2020-03-24 22:26:46.752 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-24 22:26:46.759 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 13
+2020-03-24 22:26:46.898 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:{"code":40002,"msg":"用户名密码错误"}
+2020-03-24 22:27:13.077 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /admin/login
+2020-03-24 22:27:13.077 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : POST
+2020-03-24 22:27:13.078 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-24 22:27:13.078 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.AdminController.login
+2020-03-24 22:27:13.079 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)]
+2020-03-24 22:27:13.079 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-24 22:27:13.081 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 4
+2020-03-24 22:27:13.081 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:{"code":40002,"msg":"用户名密码错误"}
+2020-03-24 22:27:16.692 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /admin/login
+2020-03-24 22:27:16.693 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : POST
+2020-03-24 22:27:16.694 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-24 22:27:16.694 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.AdminController.login
+2020-03-24 22:27:16.694 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)]
+2020-03-24 22:27:16.695 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-24 22:27:16.697 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 5
+2020-03-24 22:27:16.697 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:{"code":40002,"msg":"用户名密码错误"}
+2020-03-24 22:27:45.721 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /admin/login
+2020-03-24 22:27:45.721 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : POST
+2020-03-24 22:27:45.721 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-24 22:27:45.722 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.AdminController.login
+2020-03-24 22:27:45.722 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)]
+2020-03-24 22:27:45.722 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-24 22:27:45.724 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 3
+2020-03-24 22:27:45.724 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:{"code":40002,"msg":"用户名密码错误"}
+2020-03-24 22:29:23.320 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 7120 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-24 22:29:23.327 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-24 22:29:24.548 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.jg.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$c5c891e7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:29:24.562 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.jg.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:29:25.359 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:29:25.388 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:29:25.684 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-24 22:29:25.695 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-24 22:29:25.702 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-24 22:29:25.702 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 22:29:25.839 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-24 22:29:25.839 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2413 ms
+2020-03-24 22:29:26.016 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-24 22:29:26.297 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-24 22:29:27.997 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-24 22:29:28.022 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-24 22:29:28.026 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 5.501 seconds (JVM running for 6.902)
+2020-03-24 22:29:47.850 INFO  [http-nio-1000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-24 22:29:47.850 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-24 22:29:47.870 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 20 ms
+2020-03-24 22:29:47.976 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /admin/login
+2020-03-24 22:29:47.978 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : POST
+2020-03-24 22:29:47.979 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-24 22:29:47.981 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.AdminController.login
+2020-03-24 22:29:47.982 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)]
+2020-03-24 22:29:47.982 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-24 22:29:47.990 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 14
+2020-03-24 22:29:48.054 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:{"code":40002,"msg":"用户名密码错误"}
+2020-03-24 22:30:03.247 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /admin/login
+2020-03-24 22:30:03.248 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : POST
+2020-03-24 22:30:03.248 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-24 22:30:03.248 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.AdminController.login
+2020-03-24 22:30:03.249 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]
+2020-03-24 22:30:03.249 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-24 22:30:03.251 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 4
+2020-03-24 22:30:03.251 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:{"code":40002,"msg":"用户名密码错误"}
+2020-03-24 22:31:24.351 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 12836 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-24 22:31:24.354 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-24 22:31:25.394 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.jg.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$3471a8f8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:31:25.407 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.jg.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:31:26.264 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:31:26.294 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:31:26.584 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-24 22:31:26.599 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-24 22:31:26.607 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-24 22:31:26.607 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 22:31:26.801 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-24 22:31:26.802 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2357 ms
+2020-03-24 22:31:26.923 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-24 22:31:27.192 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-24 22:31:29.111 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-24 22:31:29.134 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-24 22:31:29.137 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 5.309 seconds (JVM running for 6.555)
+2020-03-24 22:32:08.374 INFO  [http-nio-1000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-24 22:32:08.374 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-24 22:32:08.397 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 23 ms
+2020-03-24 22:32:08.512 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /admin/login
+2020-03-24 22:32:08.515 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : POST
+2020-03-24 22:32:08.515 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-24 22:32:08.516 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.AdminController.login
+2020-03-24 22:32:08.517 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]
+2020-03-24 22:32:08.518 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-24 22:32:08.527 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 15
+2020-03-24 22:32:08.607 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:{"code":40002,"msg":"用户名密码错误"}
+2020-03-24 22:46:24.956 INFO  [main]com.jg.blog.DemoApplication.logStarting:50 -Starting DemoApplication on DESKTOP-BVT926S with PID 19284 (F:\javaBlog\blog\target\classes started by 76773 in F:\javaBlog\blog)
+2020-03-24 22:46:25.057 INFO  [main]com.jg.blog.DemoApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-03-24 22:46:26.675 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.jg.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$8e7b3858] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:46:26.740 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:46:26.755 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$74ce76d4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:46:26.763 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$5ba61b16] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:46:26.766 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-03-24 22:46:26.835 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:46:26.859 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:46:26.892 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'statFilter' of type [com.alibaba.druid.filter.stat.StatFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:46:27.189 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-03-24 22:46:27.190 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:46:27.285 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:46:27.546 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:46:27.555 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:46:27.564 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:46:27.569 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminMapper' of type [com.sun.proxy.$Proxy75] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:46:27.571 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminServiceImpl' of type [com.jg.blog.service.impl.AdminServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:46:27.572 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.jg.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:46:28.838 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:46:28.872 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-24 22:46:29.235 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 1000 (http)
+2020-03-24 22:46:29.251 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2020-03-24 22:46:29.262 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-03-24 22:46:29.262 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-24 22:46:29.450 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-03-24 22:46:29.450 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 4305 ms
+2020-03-24 22:46:31.549 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2020-03-24 22:46:31.576 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 1000 (http) with context path ''
+2020-03-24 22:46:31.581 INFO  [main]com.jg.blog.DemoApplication.logStarted:59 -Started DemoApplication in 7.367 seconds (JVM running for 9.087)
+2020-03-24 22:47:06.667 INFO  [http-nio-1000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-24 22:47:06.667 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-03-24 22:47:06.684 INFO  [http-nio-1000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 16 ms
+2020-03-24 22:47:06.803 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /admin/login
+2020-03-24 22:47:06.805 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : POST
+2020-03-24 22:47:06.806 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-24 22:47:06.808 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.AdminController.login
+2020-03-24 22:47:06.809 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]
+2020-03-24 22:47:06.809 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-24 22:47:07.189 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 385
+2020-03-24 22:47:07.401 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:{"code":20000,"data":{"token":"79D98D234C80ADA9BF90CA713FB7F886"},"msg":"操作成功"}
+2020-03-24 22:47:15.917 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /admin/login
+2020-03-24 22:47:15.917 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : POST
+2020-03-24 22:47:15.918 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-24 22:47:15.919 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.AdminController.login
+2020-03-24 22:47:15.919 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=1234455456)]
+2020-03-24 22:47:15.920 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-24 22:47:15.925 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 8
+2020-03-24 22:47:15.925 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:{"code":40002,"msg":"用户名密码错误"}
+2020-03-24 22:47:22.456 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /admin/login
+2020-03-24 22:47:22.457 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : POST
+2020-03-24 22:47:22.457 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-24 22:47:22.458 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.AdminController.login
+2020-03-24 22:47:22.458 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]
+2020-03-24 22:47:22.458 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-24 22:47:22.461 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 5
+2020-03-24 22:47:22.462 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:{"code":20000,"data":{"token":"79D98D234C80ADA9BF90CA713FB7F886"},"msg":"操作成功"}
+2020-03-24 22:49:38.515 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /admin/login
+2020-03-24 22:49:38.516 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : POST
+2020-03-24 22:49:38.516 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-24 22:49:38.516 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.AdminController.login
+2020-03-24 22:49:38.516 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=)]
+2020-03-24 22:49:38.517 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-24 22:49:38.517 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 2
+2020-03-24 22:49:38.517 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:{"code":40002,"msg":"用户名密码错误"}
+2020-03-24 22:49:49.637 INFO  [http-nio-1000-exec-10]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /admin/login
+2020-03-24 22:49:49.638 INFO  [http-nio-1000-exec-10]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : POST
+2020-03-24 22:49:49.638 INFO  [http-nio-1000-exec-10]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-24 22:49:49.638 INFO  [http-nio-1000-exec-10]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.AdminController.login
+2020-03-24 22:49:49.639 INFO  [http-nio-1000-exec-10]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)]
+2020-03-24 22:49:49.639 INFO  [http-nio-1000-exec-10]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-24 22:49:49.643 INFO  [http-nio-1000-exec-10]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 6
+2020-03-24 22:49:49.643 INFO  [http-nio-1000-exec-10]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:{"code":40002,"msg":"用户名密码错误"}
+2020-03-24 22:50:00.325 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:118 -请求地址 : /admin/login
+2020-03-24 22:50:00.326 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:119 -请求方式 : POST
+2020-03-24 22:50:00.326 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:122 -IP : 0:0:0:0:0:0:0:1
+2020-03-24 22:50:00.327 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:124 -方法 : com.jg.blog.controller.AdminController.login
+2020-03-24 22:50:00.327 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:126 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]
+2020-03-24 22:50:00.327 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:128 -请求参数
+2020-03-24 22:50:00.332 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.doAround:69 -耗时 : 7
+2020-03-24 22:50:00.333 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.doAfterReturning:84 -返回值:{"code":20000,"data":{"token":"79D98D234C80ADA9BF90CA713FB7F886"},"msg":"操作成功"}

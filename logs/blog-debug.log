@@ -1,0 +1,192 @@
+2020-03-28 10:19:40.811 DEBUG [main]com.jg.blog.DemoApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-28 10:21:59.759 DEBUG [main]com.jg.blog.DemoApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-28 10:23:28.693 DEBUG [main]com.jg.blog.DemoApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-28 10:25:10.172 DEBUG [main]com.jg.blog.DemoApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-28 10:28:17.344 DEBUG [main]com.jg.blog.DemoApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-28 10:32:14.944 DEBUG [main]com.jg.blog.DemoApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-28 10:40:40.646 DEBUG [main]com.jg.blog.DemoApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-28 10:45:27.300 DEBUG [main]com.jg.blog.DemoApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-28 10:47:54.578 DEBUG [main]com.jg.blog.DemoApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-28 10:48:21.040 DEBUG [main]com.jg.blog.DemoApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-28 10:50:49.213 DEBUG [main]com.jg.blog.DemoApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-28 10:53:03.010 DEBUG [main]com.jg.blog.DemoApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-28 10:58:45.969 DEBUG [main]com.jg.blog.DemoApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-28 11:04:11.376 DEBUG [main]com.jg.blog.DemoApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-28 11:04:47.985 DEBUG [main]com.jg.blog.DemoApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-28 11:25:09.625 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username =? 
+2020-03-28 11:25:09.679 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -==> Parameters: admin(String)
+2020-03-28 11:25:09.724 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -<==      Total: 1
+2020-03-28 11:25:09.844 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-28 11:25:09.847 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)](String), 1(Integer), null, POST(String), 520(Long), {"code":20000,"data":{"token":"0F54E751EBAE795B8F61CCF725F87711"},"msg":"操作成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-03-28 11:25:09.868 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-28 11:26:24.365 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.TypeMapper.update.debug:159 -==>  Preparing: update bl_type SET type_name = ? where type_id = ? 
+2020-03-28 11:26:24.366 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.TypeMapper.update.debug:159 -==> Parameters: 不要学了(String), 1(Integer)
+2020-03-28 11:26:24.375 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.TypeMapper.update.debug:159 -<==    Updates: 0
+2020-03-28 11:26:24.377 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-28 11:26:24.378 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/update(String), [com.jg.blog.pojo.Type@5ea967c3](String), 1(Integer), null, PUT(String), 221(Long), {"code":20000,"msg":"更新成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-03-28 11:26:24.383 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-28 11:28:32.326 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.LinkMapper.insert.debug:159 -==>  Preparing: insert into bl_link(link_name,link_url) values(?,?) 
+2020-03-28 11:28:32.331 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-28 11:28:32.332 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /link/save(String), [Link(linkId=null, linkName=null, linkUrl=null, createdTime=null, updateTime=null, version=null, deleted=null)](String), 0(Integer), org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'link_url' in 'class com.jg.blog.pojo.Link'
+	at com.jg.blog.service.impl.LinkServiceImpl.save(LinkServiceImpl.java:30)
+	at com.jg.blog.controller.LinkController.save(LinkController.java:34)
+	at com.jg.blog.controller.LinkController$$FastClassBySpringCGLIB$$58acb240.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:67)
+	at com.jg.blog.controller.LinkController$$EnhancerBySpringCGLIB$$4406433d.save(<generated>)
+Caused by: org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'link_url' in 'class com.jg.blog.pojo.Link'
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-03-28 11:28:32.338 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-28 11:29:18.761 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LinkMapper.insert.debug:159 -==>  Preparing: insert into bl_link(link_name,link_url) values(?,?) 
+2020-03-28 11:29:18.763 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-28 11:29:18.764 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /link/save(String), [Link(linkId=null, linkName=1, linkUrl=不要学了, createdTime=null, updateTime=null, version=null, deleted=null)](String), 0(Integer), org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'link_url' in 'class com.jg.blog.pojo.Link'
+	at com.jg.blog.service.impl.LinkServiceImpl.save(LinkServiceImpl.java:30)
+	at com.jg.blog.controller.LinkController.save(LinkController.java:34)
+	at com.jg.blog.controller.LinkController$$FastClassBySpringCGLIB$$58acb240.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:67)
+	at com.jg.blog.controller.LinkController$$EnhancerBySpringCGLIB$$4406433d.save(<generated>)
+Caused by: org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'link_url' in 'class com.jg.blog.pojo.Link'
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-03-28 11:29:18.771 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-28 11:29:37.459 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LinkMapper.insert.debug:159 -==>  Preparing: insert into bl_link(link_name,link_url) values(?,?) 
+2020-03-28 11:29:37.463 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-28 11:29:37.464 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /link/save(String), [Link(linkId=null, linkName=1, linkUrl=不要学了, createdTime=null, updateTime=null, version=null, deleted=null)](String), 0(Integer), org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'link_url' in 'class com.jg.blog.pojo.Link'
+	at com.jg.blog.service.impl.LinkServiceImpl.save(LinkServiceImpl.java:30)
+	at com.jg.blog.controller.LinkController.save(LinkController.java:34)
+	at com.jg.blog.controller.LinkController$$FastClassBySpringCGLIB$$58acb240.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:67)
+	at com.jg.blog.controller.LinkController$$EnhancerBySpringCGLIB$$4406433d.save(<generated>)
+Caused by: org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'link_url' in 'class com.jg.blog.pojo.Link'
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-03-28 11:29:37.472 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-28 11:31:19.246 DEBUG [main]com.jg.blog.DemoApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-28 11:33:03.765 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username =? 
+2020-03-28 11:33:03.799 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -==> Parameters: admin(String)
+2020-03-28 11:33:03.831 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -<==      Total: 1
+2020-03-28 11:33:03.911 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-28 11:33:03.913 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)](String), 1(Integer), null, POST(String), 227(Long), {"code":20000,"data":{"token":"32542387329EECB0DE44ED7E3D192F79"},"msg":"操作成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-03-28 11:33:03.919 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-28 11:33:29.443 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LinkMapper.insert.debug:159 -==>  Preparing: insert into bl_link(link_name,link_url) values(?,?) 
+2020-03-28 11:33:29.444 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LinkMapper.insert.debug:159 -==> Parameters: 1(String), 不要学了(String)
+2020-03-28 11:33:29.460 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LinkMapper.insert.debug:159 -<==    Updates: 1
+2020-03-28 11:33:29.461 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-28 11:33:29.462 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /link/save(String), [Link(linkId=null, linkName=1, linkUrl=不要学了, createdTime=null, updateTime=null, version=null, deleted=null)](String), 1(Integer), null, POST(String), 21(Long), {"code":20000,"msg":"添加成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-03-28 11:33:29.470 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-28 11:35:48.483 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.LinkMapper.getById.debug:159 -==>  Preparing: select link_id, link_name, link_url, version from bl_link where link_id=? and deleted=0 
+2020-03-28 11:35:48.484 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.LinkMapper.getById.debug:159 -==> Parameters: 1(Integer)
+2020-03-28 11:35:48.486 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.LinkMapper.getById.debug:159 -<==      Total: 1
+2020-03-28 11:35:48.491 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-28 11:35:48.492 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /link/get/1(String), [1](String), 1(Integer), null, GET(String), 10(Long), {"code":20000,"data":{"linkId":1,"linkName":"1","linkUrl":"不要学了","version":1},"msg":"操作成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-03-28 11:35:48.497 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-28 11:36:56.103 DEBUG [http-nio-1000-exec-10]com.jg.blog.mapper.LinkMapper.getAll.debug:159 -==>  Preparing: select link_id, link_name, link_url, created_time, update_time from bl_link where deletedz=0 
+2020-03-28 11:36:56.104 DEBUG [http-nio-1000-exec-10]com.jg.blog.mapper.LinkMapper.getAll.debug:159 -==> Parameters: 
+2020-03-28 11:36:56.205 DEBUG [http-nio-1000-exec-10]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-28 11:36:56.206 DEBUG [http-nio-1000-exec-10]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /link/list(String), [](String), 0(Integer), org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'deletedz' in 'where clause'
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'deletedz' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'deletedz' in 'where clause'
+	at com.jg.blog.service.impl.LinkServiceImpl.getAll(LinkServiceImpl.java:71)
+	at com.jg.blog.controller.LinkController.list(LinkController.java:77)
+	at com.jg.blog.controller.LinkController$$FastClassBySpringCGLIB$$58acb240.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:67)
+	at com.jg.blog.controller.LinkController$$EnhancerBySpringCGLIB$$ff92450b.list(<generated>)
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'deletedz' in 'where clause'
+(String), GET(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-03-28 11:36:56.213 DEBUG [http-nio-1000-exec-10]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-28 11:37:19.969 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LinkMapper.getAll.debug:159 -==>  Preparing: select link_id, link_name, link_url, created_time, update_time from bl_link where deletedz=0 
+2020-03-28 11:37:19.970 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LinkMapper.getAll.debug:159 -==> Parameters: 
+2020-03-28 11:37:19.974 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-28 11:37:19.975 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /link/list(String), [](String), 0(Integer), org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'deletedz' in 'where clause'
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'deletedz' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'deletedz' in 'where clause'
+	at com.jg.blog.service.impl.LinkServiceImpl.getAll(LinkServiceImpl.java:71)
+	at com.jg.blog.controller.LinkController.list(LinkController.java:77)
+	at com.jg.blog.controller.LinkController$$FastClassBySpringCGLIB$$58acb240.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:67)
+	at com.jg.blog.controller.LinkController$$EnhancerBySpringCGLIB$$ff92450b.list(<generated>)
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'deletedz' in 'where clause'
+(String), GET(String), 0(Long), {"code":20000,"msg":"添加成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-03-28 11:37:19.978 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-28 11:38:55.061 DEBUG [main]com.jg.blog.DemoApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-28 21:50:02.116 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username =? 
+2020-03-28 21:50:02.161 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -==> Parameters: admin(String)
+2020-03-28 21:50:02.199 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -<==      Total: 1
+2020-03-28 21:50:02.299 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-28 21:50:02.302 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)](String), 1(Integer), null, POST(String), 284(Long), {"code":20000,"data":{"token":"B5989D21DF60126E4F182D3CEF9A36CE"},"msg":"操作成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-03-28 21:50:02.312 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-28 21:58:18.990 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.TypeMapper.update.debug:159 -==>  Preparing: update bl_type SET type_name = ? where type_id = ? 
+2020-03-28 21:58:18.992 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.TypeMapper.update.debug:159 -==> Parameters: 不要学了(String), 1(Integer)
+2020-03-28 21:58:18.995 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.TypeMapper.update.debug:159 -<==    Updates: 0
+2020-03-28 21:58:18.997 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-28 21:58:18.998 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/update(String), [com.jg.blog.pojo.Type@5b5419c](String), 1(Integer), null, PUT(String), 48(Long), {"code":20000,"msg":"更新成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-03-28 21:58:19.009 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-28 22:02:34.043 DEBUG [main]com.jg.blog.DemoApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-28 22:04:04.543 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-28 22:04:04.610 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)](String), 1(Integer), null, POST(String), 15(Long), {"code":40002,"msg":"用户名密码错误"}(String), 0:0:0:0:0:0:0:1(String)
+2020-03-28 22:04:04.623 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-28 22:04:14.792 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-28 22:04:14.794 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)](String), 1(Integer), null, POST(String), 5(Long), {"code":40002,"msg":"用户名密码错误"}(String), 0:0:0:0:0:0:0:1(String)
+2020-03-28 22:04:14.811 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-28 22:05:36.409 DEBUG [main]com.jg.blog.DemoApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-28 22:05:54.669 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username =? 
+2020-03-28 22:05:54.703 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -==> Parameters: admin(String)
+2020-03-28 22:05:54.731 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -<==      Total: 1
+2020-03-28 22:05:54.840 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-28 22:05:54.843 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)](String), 1(Integer), null, POST(String), 215(Long), {"code":20000,"data":{"token":"8D81034F245C1883D82072995368ADA9"},"msg":"操作成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-03-28 22:05:54.853 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-28 22:06:43.550 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.AdminMapper.getAdmin.debug:159 -==>  Preparing: select name, header, signature, username, from bl_admin limit 1 
+2020-03-28 22:06:43.551 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.AdminMapper.getAdmin.debug:159 -==> Parameters: 
+2020-03-28 22:06:43.607 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-28 22:06:43.608 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/getAdmin(String), [](String), 0(Integer), org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from bl_admin
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from bl_admin
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from bl_admin
+	at com.jg.blog.service.impl.AdminServiceImpl.getAdmin(AdminServiceImpl.java:33)
+	at com.jg.blog.controller.AdminController.getAdmin(AdminController.java:69)
+	at com.jg.blog.controller.AdminController$$FastClassBySpringCGLIB$$131e1a81.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:67)
+	at com.jg.blog.controller.AdminController$$EnhancerBySpringCGLIB$$4f91eb6b.getAdmin(<generated>)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from bl_admin
+(String), GET(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-03-28 22:06:43.615 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-28 22:07:48.121 DEBUG [main]com.jg.blog.DemoApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-28 22:08:45.085 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username =? 
+2020-03-28 22:08:45.113 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -==> Parameters: admin(String)
+2020-03-28 22:08:45.137 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -<==      Total: 1
+2020-03-28 22:08:45.224 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-28 22:08:45.228 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)](String), 1(Integer), null, POST(String), 193(Long), {"code":20000,"data":{"token":"196DBDAC2A08EA693144BD9821F51E8C"},"msg":"操作成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-03-28 22:08:45.236 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-28 22:09:13.123 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.AdminMapper.getAdmin.debug:159 -==>  Preparing: select name, header, signature, username from bl_admin limit 1 
+2020-03-28 22:09:13.123 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.AdminMapper.getAdmin.debug:159 -==> Parameters: 
+2020-03-28 22:09:13.124 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.AdminMapper.getAdmin.debug:159 -<==      Total: 1
+2020-03-28 22:09:13.129 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-28 22:09:13.130 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/getAdmin(String), [](String), 1(Integer), null, GET(String), 4(Long), {"code":20000,"data":{"header":"admin","name":"admin","signature":"admin","username":"admin"},"msg":"操作成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-03-28 22:09:13.137 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-28 22:11:43.656 DEBUG [main]com.jg.blog.DemoApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-28 22:13:43.051 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username =? 
+2020-03-28 22:13:43.133 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -==> Parameters: admin(String)
+2020-03-28 22:13:43.166 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -<==      Total: 1
+2020-03-28 22:13:43.258 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-28 22:13:43.264 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)](String), 1(Integer), null, POST(String), 297(Long), {"code":20000,"data":{"token":"028EC17B89DAB2BBA5515C857799EFEC"},"msg":"操作成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-03-28 22:13:43.271 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-28 22:14:09.932 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.AdminMapper.getAdmin.debug:159 -==>  Preparing: select name, header, signature, username from bl_admin limit 1 
+2020-03-28 22:14:09.933 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.AdminMapper.getAdmin.debug:159 -==> Parameters: 
+2020-03-28 22:14:09.935 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.AdminMapper.getAdmin.debug:159 -<==      Total: 1
+2020-03-28 22:14:09.940 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-28 22:14:09.941 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/getAdmin(String), [](String), 1(Integer), null, GET(String), 8(Long), {"code":20000,"data":{"header":"admin","name":"admin","signature":"admin","username":"admin"},"msg":"操作成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-03-28 22:14:09.949 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-28 22:17:04.070 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.AdminMapper.updateInfo.debug:159 -==>  Preparing: update bl_admin SET signature = ? where id = ? 
+2020-03-28 22:17:04.071 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.AdminMapper.updateInfo.debug:159 -==> Parameters: admin11(String), 1(Integer)
+2020-03-28 22:17:04.084 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.AdminMapper.updateInfo.debug:159 -<==    Updates: 1
+2020-03-28 22:17:04.085 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-28 22:17:04.087 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/updateInfo(String), [Admin(id=1, name=null, header=null, signature=admin11, comment=null, username=null, password=null)](String), 1(Integer), null, PUT(String), 40(Long), {"code":20000,"msg":"更新成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-03-28 22:17:04.211 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-28 22:18:22.436 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.AdminMapper.getAdmin.debug:159 -==>  Preparing: select name, header, signature, username from bl_admin limit 1 
+2020-03-28 22:18:22.437 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.AdminMapper.getAdmin.debug:159 -==> Parameters: 
+2020-03-28 22:18:22.438 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.AdminMapper.getAdmin.debug:159 -<==      Total: 1
+2020-03-28 22:18:22.440 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.AdminMapper.updateInfo.debug:159 -==>  Preparing: update bl_admin SET name = ?, header = ?, signature = ?, username = ?, password = ? where id = ? 
+2020-03-28 22:18:22.440 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.AdminMapper.updateInfo.debug:159 -==> Parameters: admin(String), admin(String), admin11(String), admin(String), 123456789(String), null
+2020-03-28 22:18:22.443 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.AdminMapper.updateInfo.debug:159 -<==    Updates: 0
+2020-03-28 22:18:22.446 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-28 22:18:22.447 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/updatePassWord(String), [Admin(id=1, name=null, header=null, signature=admin11, comment=null, username=null, password=123456789)](String), 1(Integer), null, PUT(String), 15(Long), {"code":20000,"msg":"更新成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-03-28 22:18:22.452 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
