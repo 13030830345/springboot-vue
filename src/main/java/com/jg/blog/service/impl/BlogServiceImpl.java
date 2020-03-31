@@ -79,7 +79,6 @@ public class BlogServiceImpl implements BlogService {
         blogVo.setTypeName(type.getTypeName());
         return  blogVo;
     }
-
     /**
      * 根据id删除
      * @param id
@@ -88,7 +87,6 @@ public class BlogServiceImpl implements BlogService {
     public void deleteById(String id) {
         blogMapper.deleteById(id);
     }
-
     /**
      * 分页查询
      * @param page
