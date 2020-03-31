@@ -1,0 +1,8 @@
+2020-03-25 17:41:22.960 WARN  [http-nio-1000-exec-7]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting double-quote to start field name
+ at [Source: (PushbackInputStream); line: 3, column: 2]]
+2020-03-25 17:48:31.015 WARN  [http-nio-1000-exec-4]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-03-25 18:00:24.111 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for POST /text/textException/1
+2020-03-25 18:00:44.317 WARN  [http-nio-1000-exec-6]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-03-25 18:00:58.730 WARN  [http-nio-1000-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /text/textException/1
+2020-03-25 18:01:12.199 WARN  [http-nio-1000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /text/textException/1
+2020-03-25 18:01:17.165 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /text/textException/1

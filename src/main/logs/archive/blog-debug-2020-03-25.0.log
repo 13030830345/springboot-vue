@@ -1,0 +1,294 @@
+2020-03-25 17:38:46.277 DEBUG [main]com.jg.blog.DemoApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-25 17:38:57.411 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username =? 
+2020-03-25 17:38:57.441 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -==> Parameters: admin(String)
+2020-03-25 17:38:57.468 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -<==      Total: 1
+2020-03-25 17:38:57.559 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-25 17:38:57.564 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)](String), 1(Integer), null, POST(String), 286(Long), {"code":20000,"data":{"token":"0D48CE1C1C6FA879CC8F56A2D480C804"},"msg":"操作成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-03-25 17:38:57.574 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-25 17:42:52.423 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username =? 
+2020-03-25 17:42:52.424 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -==> Parameters: admin(String)
+2020-03-25 17:42:52.426 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -<==      Total: 1
+2020-03-25 17:42:52.428 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-25 17:42:52.429 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)](String), 1(Integer), null, POST(String), 13(Long), {"code":20000,"data":{"token":"0D48CE1C1C6FA879CC8F56A2D480C804"},"msg":"操作成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-03-25 17:42:52.436 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-25 17:45:52.999 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username =? 
+2020-03-25 17:45:53.000 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -==> Parameters: admin(String)
+2020-03-25 17:45:53.001 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -<==      Total: 1
+2020-03-25 17:45:53.003 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-25 17:45:53.004 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)](String), 1(Integer), null, POST(String), 10(Long), {"code":20000,"data":{"token":"0D48CE1C1C6FA879CC8F56A2D480C804"},"msg":"操作成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-03-25 17:45:53.012 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-25 17:47:01.586 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count from bl_type where deleted = 0 and type_name = ? 
+2020-03-25 17:47:01.587 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==> Parameters: null
+2020-03-25 17:47:01.589 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -<==      Total: 0
+2020-03-25 17:47:01.590 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.TypeMapper.insert.debug:159 -==>  Preparing: insert into bl_type(type_name) values( ? ) 
+2020-03-25 17:47:01.590 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.TypeMapper.insert.debug:159 -==> Parameters: null
+2020-03-25 17:47:01.743 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-25 17:47:01.744 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/save(String), [Type(typeId=null, typeName=null, typeBlogCount=null, enable=null, deleted=null)](String), 0(Integer), org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+### The error may involve com.jg.blog.mapper.TypeMapper.insert-Inline
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+; Column 'type_name' cannot be null; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+	at com.jg.blog.service.impl.TypeServiceImpl.save(TypeServiceImpl.java:36)
+	at com.jg.blog.controller.TypeController.save(TypeController.java:31)
+	at com.jg.blog.controller.TypeController$$FastClassBySpringCGLIB$$e1d28180.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:67)
+	at com.jg.blog.controller.TypeController$$EnhancerBySpringCGLIB$$b328cf1d.save(<generated>)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+(String), POST(String), 0(Long), {"code":20000,"data":{"token":"0D48CE1C1C6FA879CC8F56A2D480C804"},"msg":"操作成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-03-25 17:47:01.749 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-25 17:47:34.292 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username =? 
+2020-03-25 17:47:34.292 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -==> Parameters: admin(String)
+2020-03-25 17:47:34.294 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -<==      Total: 1
+2020-03-25 17:47:34.296 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-25 17:47:34.297 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)](String), 1(Integer), null, POST(String), 6(Long), {"code":20000,"data":{"token":"0D48CE1C1C6FA879CC8F56A2D480C804"},"msg":"操作成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-03-25 17:47:34.303 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-25 17:48:18.488 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count from bl_type where deleted = 0 and type_name = ? 
+2020-03-25 17:48:18.489 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==> Parameters: null
+2020-03-25 17:48:18.490 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -<==      Total: 0
+2020-03-25 17:48:18.491 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.TypeMapper.insert.debug:159 -==>  Preparing: insert into bl_type(type_name) values( ? ) 
+2020-03-25 17:48:18.492 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.TypeMapper.insert.debug:159 -==> Parameters: null
+2020-03-25 17:48:18.496 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-25 17:48:18.497 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/save(String), [Type(typeId=null, typeName=null, typeBlogCount=null, enable=null, deleted=null)](String), 0(Integer), org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+### The error may involve com.jg.blog.mapper.TypeMapper.insert-Inline
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+; Column 'type_name' cannot be null; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+	at com.jg.blog.service.impl.TypeServiceImpl.save(TypeServiceImpl.java:36)
+	at com.jg.blog.controller.TypeController.save(TypeController.java:31)
+	at com.jg.blog.controller.TypeController$$FastClassBySpringCGLIB$$e1d28180.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:67)
+	at com.jg.blog.controller.TypeController$$EnhancerBySpringCGLIB$$b328cf1d.save(<generated>)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+(String), POST(String), 0(Long), {"code":20000,"data":{"token":"0D48CE1C1C6FA879CC8F56A2D480C804"},"msg":"操作成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-03-25 17:48:18.503 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-25 17:48:47.408 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count from bl_type where deleted = 0 and type_name = ? 
+2020-03-25 17:48:47.408 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==> Parameters: null
+2020-03-25 17:48:47.409 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -<==      Total: 0
+2020-03-25 17:48:47.410 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.TypeMapper.insert.debug:159 -==>  Preparing: insert into bl_type(type_name) values( ? ) 
+2020-03-25 17:48:47.412 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.TypeMapper.insert.debug:159 -==> Parameters: null
+2020-03-25 17:48:47.417 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-25 17:48:47.418 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/save(String), [Type(typeId=null, typeName=null, typeBlogCount=null, enable=null, deleted=null)](String), 0(Integer), org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+### The error may involve com.jg.blog.mapper.TypeMapper.insert-Inline
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+; Column 'type_name' cannot be null; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+	at com.jg.blog.service.impl.TypeServiceImpl.save(TypeServiceImpl.java:36)
+	at com.jg.blog.controller.TypeController.save(TypeController.java:31)
+	at com.jg.blog.controller.TypeController$$FastClassBySpringCGLIB$$e1d28180.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:67)
+	at com.jg.blog.controller.TypeController$$EnhancerBySpringCGLIB$$b328cf1d.save(<generated>)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-03-25 17:48:47.424 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-25 17:57:53.997 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count from bl_type where deleted = 0 and type_name = ? 
+2020-03-25 17:57:53.998 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==> Parameters: null
+2020-03-25 17:57:53.999 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -<==      Total: 0
+2020-03-25 17:57:54.000 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.TypeMapper.insert.debug:159 -==>  Preparing: insert into bl_type(type_name) values( ? ) 
+2020-03-25 17:57:54.000 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.TypeMapper.insert.debug:159 -==> Parameters: null
+2020-03-25 17:57:54.003 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-25 17:57:54.004 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/save(String), [Type(typeId=null, typeName=null, typeBlogCount=null, enable=null, deleted=null)](String), 0(Integer), org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+### The error may involve com.jg.blog.mapper.TypeMapper.insert-Inline
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+; Column 'type_name' cannot be null; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+	at com.jg.blog.service.impl.TypeServiceImpl.save(TypeServiceImpl.java:36)
+	at com.jg.blog.controller.TypeController.save(TypeController.java:31)
+	at com.jg.blog.controller.TypeController$$FastClassBySpringCGLIB$$e1d28180.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:67)
+	at com.jg.blog.controller.TypeController$$EnhancerBySpringCGLIB$$b328cf1d.save(<generated>)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+(String), POST(String), 0(Long), {"code":20000,"data":{"token":"0D48CE1C1C6FA879CC8F56A2D480C804"},"msg":"操作成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-03-25 17:57:54.011 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-25 17:58:01.427 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count from bl_type where deleted = 0 and type_name = ? 
+2020-03-25 17:58:01.428 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==> Parameters: null
+2020-03-25 17:58:01.429 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -<==      Total: 0
+2020-03-25 17:58:01.430 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.TypeMapper.insert.debug:159 -==>  Preparing: insert into bl_type(type_name) values( ? ) 
+2020-03-25 17:58:01.430 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.TypeMapper.insert.debug:159 -==> Parameters: null
+2020-03-25 17:58:01.435 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-25 17:58:01.437 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/save(String), [Type(typeId=null, typeName=null, typeBlogCount=null, enable=null, deleted=null)](String), 0(Integer), org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+### The error may involve com.jg.blog.mapper.TypeMapper.insert-Inline
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+; Column 'type_name' cannot be null; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+	at com.jg.blog.service.impl.TypeServiceImpl.save(TypeServiceImpl.java:36)
+	at com.jg.blog.controller.TypeController.save(TypeController.java:31)
+	at com.jg.blog.controller.TypeController$$FastClassBySpringCGLIB$$e1d28180.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:67)
+	at com.jg.blog.controller.TypeController$$EnhancerBySpringCGLIB$$b328cf1d.save(<generated>)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-03-25 17:58:01.442 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-25 17:58:48.967 DEBUG [http-nio-1000-exec-10]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count from bl_type where deleted = 0 and type_name = ? 
+2020-03-25 17:58:48.968 DEBUG [http-nio-1000-exec-10]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==> Parameters: null
+2020-03-25 17:58:48.969 DEBUG [http-nio-1000-exec-10]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -<==      Total: 0
+2020-03-25 17:58:48.970 DEBUG [http-nio-1000-exec-10]com.jg.blog.mapper.TypeMapper.insert.debug:159 -==>  Preparing: insert into bl_type(type_name) values( ? ) 
+2020-03-25 17:58:48.971 DEBUG [http-nio-1000-exec-10]com.jg.blog.mapper.TypeMapper.insert.debug:159 -==> Parameters: null
+2020-03-25 17:58:48.974 DEBUG [http-nio-1000-exec-10]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-25 17:58:48.975 DEBUG [http-nio-1000-exec-10]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/save(String), [Type(typeId=null, typeName=null, typeBlogCount=null, enable=null, deleted=null)](String), 0(Integer), org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+### The error may involve com.jg.blog.mapper.TypeMapper.insert-Inline
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+; Column 'type_name' cannot be null; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+	at com.jg.blog.service.impl.TypeServiceImpl.save(TypeServiceImpl.java:36)
+	at com.jg.blog.controller.TypeController.save(TypeController.java:31)
+	at com.jg.blog.controller.TypeController$$FastClassBySpringCGLIB$$e1d28180.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:67)
+	at com.jg.blog.controller.TypeController$$EnhancerBySpringCGLIB$$b328cf1d.save(<generated>)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-03-25 17:58:48.981 DEBUG [http-nio-1000-exec-10]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-25 17:59:01.937 DEBUG [main]com.jg.blog.DemoApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-25 17:59:22.700 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username =? 
+2020-03-25 17:59:22.728 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -==> Parameters: admin(String)
+2020-03-25 17:59:22.773 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -<==      Total: 1
+2020-03-25 17:59:22.887 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-25 17:59:22.890 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)](String), 1(Integer), null, POST(String), 246(Long), {"code":20000,"data":{"token":"0E8EC28857B356E738F7FA41795CB2E3"},"msg":"操作成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-03-25 17:59:22.895 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-25 18:01:37.333 DEBUG [http-nio-1000-exec-10]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-25 18:01:37.335 DEBUG [http-nio-1000-exec-10]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /textException/1(String), [1](String), 1(Integer), null, GET(String), 3(Long), {"code":20000,"msg":"操作成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-03-25 18:01:37.341 DEBUG [http-nio-1000-exec-10]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-25 18:02:44.449 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count from bl_type where deleted = 0 and type_name = ? 
+2020-03-25 18:02:44.450 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==> Parameters: null
+2020-03-25 18:02:44.451 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -<==      Total: 0
+2020-03-25 18:02:44.452 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.TypeMapper.insert.debug:159 -==>  Preparing: insert into bl_type(type_name) values( ? ) 
+2020-03-25 18:02:44.453 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.TypeMapper.insert.debug:159 -==> Parameters: null
+2020-03-25 18:02:44.513 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-25 18:02:44.515 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/save(String), [Type(typeId=null, typeName=null, typeBlogCount=null, enable=null, deleted=null)](String), 0(Integer), org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+### The error may involve com.jg.blog.mapper.TypeMapper.insert-Inline
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+; Column 'type_name' cannot be null; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+	at com.jg.blog.service.impl.TypeServiceImpl.save(TypeServiceImpl.java:36)
+	at com.jg.blog.controller.TypeController.save(TypeController.java:31)
+	at com.jg.blog.controller.TypeController$$FastClassBySpringCGLIB$$e1d28180.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:67)
+	at com.jg.blog.controller.TypeController$$EnhancerBySpringCGLIB$$61efb5fd.save(<generated>)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-03-25 18:02:44.523 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-25 18:04:40.312 DEBUG [main]com.jg.blog.DemoApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-25 18:05:27.563 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username =? 
+2020-03-25 18:05:27.591 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -==> Parameters: admin(String)
+2020-03-25 18:05:27.617 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -<==      Total: 1
+2020-03-25 18:05:27.628 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-25 18:05:27.633 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)](String), 1(Integer), null, POST(String), 224(Long), {"code":20000,"data":{"token":"F8937D03D553B9259B80FE8876D739E1"},"msg":"操作成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-03-25 18:05:27.640 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-25 18:05:50.367 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-25 18:05:50.369 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/save(String), [Type(typeId=null, typeName=null, typeBlogCount=null, enable=null, deleted=null)](String), 0(Integer), org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.jg.blog.mapper.TypeMapper.getByName
+	at com.jg.blog.service.impl.TypeServiceImpl.save(TypeServiceImpl.java:31)
+	at com.jg.blog.controller.TypeController.save(TypeController.java:31)
+	at com.jg.blog.controller.TypeController$$FastClassBySpringCGLIB$$e1d28180.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:67)
+	at com.jg.blog.controller.TypeController$$EnhancerBySpringCGLIB$$20e39763.save(<generated>)
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-03-25 18:05:50.380 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-25 18:10:11.469 DEBUG [main]com.jg.blog.DemoApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-25 18:10:20.561 DEBUG [main]com.jg.blog.DemoApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-25 18:10:32.001 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username =? 
+2020-03-25 18:10:32.029 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -==> Parameters: admin(String)
+2020-03-25 18:10:32.059 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -<==      Total: 1
+2020-03-25 18:10:32.142 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-25 18:10:32.145 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)](String), 1(Integer), null, POST(String), 225(Long), {"code":20000,"data":{"token":"A4BAE3E93FFCA8F3581B51D2124D52C9"},"msg":"操作成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-03-25 18:10:32.151 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-25 18:12:02.447 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-25 18:12:02.448 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/save(String), [Type(typeId=null, typeName=null, typeBlogCount=null, enable=null, deleted=null)](String), 0(Integer), org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.jg.blog.mapper.TypeMapper.getByName
+	at com.jg.blog.service.impl.TypeServiceImpl.save(TypeServiceImpl.java:32)
+	at com.jg.blog.controller.TypeController.save(TypeController.java:31)
+	at com.jg.blog.controller.TypeController$$FastClassBySpringCGLIB$$e1d28180.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:67)
+	at com.jg.blog.controller.TypeController$$EnhancerBySpringCGLIB$$4e04d801.save(<generated>)
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-03-25 18:12:02.454 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-25 18:12:09.129 DEBUG [main]com.jg.blog.DemoApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-25 18:12:41.647 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username =? 
+2020-03-25 18:12:41.680 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -==> Parameters: admin(String)
+2020-03-25 18:12:41.711 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -<==      Total: 1
+2020-03-25 18:12:41.800 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-25 18:12:41.803 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)](String), 1(Integer), null, POST(String), 271(Long), {"code":20000,"data":{"token":"00DCB1E556608C34DC638EBAC3D89BFA"},"msg":"操作成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-03-25 18:12:41.810 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-25 18:16:56.683 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-25 18:16:56.684 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/save(String), [Type(typeId=null, typeName=null, typeBlogCount=null, enable=null, deleted=null)](String), 0(Integer), org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.jg.blog.mapper.TypeMapper.getByName
+	at com.jg.blog.service.impl.TypeServiceImpl.save(TypeServiceImpl.java:32)
+	at com.jg.blog.controller.TypeController.save(TypeController.java:31)
+	at com.jg.blog.controller.TypeController$$FastClassBySpringCGLIB$$e1d28180.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:67)
+	at com.jg.blog.controller.TypeController$$EnhancerBySpringCGLIB$$5202e620.save(<generated>)
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-03-25 18:16:56.690 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-25 18:17:05.957 DEBUG [main]com.jg.blog.DemoApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-25 18:17:28.941 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username =? 
+2020-03-25 18:17:28.969 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -==> Parameters: admin(String)
+2020-03-25 18:17:28.999 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -<==      Total: 1
+2020-03-25 18:17:29.085 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-25 18:17:29.088 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)](String), 1(Integer), null, POST(String), 254(Long), {"code":20000,"data":{"token":"AB8B9717B5B389B1FFF447189F7BC40A"},"msg":"操作成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-03-25 18:17:29.094 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-25 18:23:47.443 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-25 18:23:47.444 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/save(String), [com.jg.blog.pojo.Type@74bc4bc](String), 0(Integer), org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.jg.blog.mapper.TypeMapper.getByName
+	at com.jg.blog.service.impl.TypeServiceImpl.save(TypeServiceImpl.java:32)
+	at com.jg.blog.controller.TypeController.save(TypeController.java:31)
+	at com.jg.blog.controller.TypeController$$FastClassBySpringCGLIB$$e1d28180.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:67)
+	at com.jg.blog.controller.TypeController$$EnhancerBySpringCGLIB$$2e170f41.save(<generated>)
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-03-25 18:23:47.454 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-25 18:57:08.786 DEBUG [main]com.jg.blog.DemoApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-25 18:58:16.556 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username =? 
+2020-03-25 18:58:16.593 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -==> Parameters: admin(String)
+2020-03-25 18:58:16.632 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -<==      Total: 1
+2020-03-25 18:58:16.642 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-25 18:58:16.645 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)](String), 1(Integer), null, POST(String), 314(Long), {"code":20000,"data":{"token":"21261B18492645905ED8AE5A50346374"},"msg":"操作成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-03-25 18:58:16.654 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-25 18:59:06.021 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count from bl_type where deleted = 0 and type_name = ? 
+2020-03-25 18:59:06.022 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==> Parameters: null
+2020-03-25 18:59:06.026 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -<==      Total: 0
+2020-03-25 18:59:06.027 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.TypeMapper.insert.debug:159 -==>  Preparing: insert into bl_type(type_name) values( ? ) 
+2020-03-25 18:59:06.028 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.TypeMapper.insert.debug:159 -==> Parameters: null
+2020-03-25 18:59:06.103 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-25 18:59:06.104 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/save(String), [com.jg.blog.pojo.Type@1e417d51](String), 0(Integer), org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+### The error may involve com.jg.blog.mapper.TypeMapper.insert-Inline
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+; Column 'type_name' cannot be null; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+	at com.jg.blog.service.impl.TypeServiceImpl.save(TypeServiceImpl.java:37)
+	at com.jg.blog.controller.TypeController.save(TypeController.java:31)
+	at com.jg.blog.controller.TypeController$$FastClassBySpringCGLIB$$e1d28180.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:67)
+	at com.jg.blog.controller.TypeController$$EnhancerBySpringCGLIB$$56a5810d.save(<generated>)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-03-25 18:59:06.112 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-25 19:04:46.890 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count from bl_type where deleted = 0 and type_name = ? 
+2020-03-25 19:04:46.891 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==> Parameters: null
+2020-03-25 19:04:46.892 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -<==      Total: 0
+2020-03-25 19:04:46.893 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.TypeMapper.insert.debug:159 -==>  Preparing: insert into bl_type(type_name) values( ? ) 
+2020-03-25 19:04:46.893 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.TypeMapper.insert.debug:159 -==> Parameters: null
+2020-03-25 19:04:46.897 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-25 19:04:46.898 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/save(String), [com.jg.blog.pojo.Type@3c9c83a3](String), 0(Integer), org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+### The error may involve com.jg.blog.mapper.TypeMapper.insert-Inline
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+; Column 'type_name' cannot be null; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+	at com.jg.blog.service.impl.TypeServiceImpl.save(TypeServiceImpl.java:37)
+	at com.jg.blog.controller.TypeController.save(TypeController.java:31)
+	at com.jg.blog.controller.TypeController$$FastClassBySpringCGLIB$$e1d28180.invoke(<generated>)
+	at com.jg.blog.aspect.RequestAspect.doAround(RequestAspect.java:67)
+	at com.jg.blog.controller.TypeController$$EnhancerBySpringCGLIB$$56a5810d.save(<generated>)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'type_name' cannot be null
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-03-25 19:04:46.904 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-25 19:07:54.007 DEBUG [main]com.jg.blog.DemoApplication.logStarting:53 -Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-25 19:08:40.531 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username =? 
+2020-03-25 19:08:40.566 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -==> Parameters: admin(String)
+2020-03-25 19:08:40.627 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.AdminMapper.getByUserName.debug:159 -<==      Total: 1
+2020-03-25 19:08:40.640 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-25 19:08:40.646 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)](String), 1(Integer), null, POST(String), 264(Long), {"code":20000,"data":{"token":"B5182C27CF5579E4E0F1C5559387F87A"},"msg":"操作成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-03-25 19:08:40.654 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-03-25 19:09:20.837 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count from bl_type where deleted = 0 and type_name = ? 
+2020-03-25 19:09:20.838 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -==> Parameters: java(String)
+2020-03-25 19:09:20.839 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.TypeMapper.getByName.debug:159 -<==      Total: 0
+2020-03-25 19:09:20.841 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.TypeMapper.insert.debug:159 -==>  Preparing: insert into bl_type(type_name) values( ? ) 
+2020-03-25 19:09:20.841 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.TypeMapper.insert.debug:159 -==> Parameters: java(String)
+2020-03-25 19:09:20.847 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.TypeMapper.insert.debug:159 -<==    Updates: 1
+2020-03-25 19:09:20.849 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log(log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip)values (?,?,?,?,?,?,?,?) 
+2020-03-25 19:09:20.851 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/save(String), [com.jg.blog.pojo.Type@5de874f6](String), 1(Integer), null, POST(String), 15(Long), {"code":20000,"msg":"添加成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-03-25 19:09:20.861 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1

@@ -79,8 +79,6 @@ public class BlogServiceImpl implements BlogService {
         blogVo.setTypeName(type.getTypeName());
         return  blogVo;
     }
-
-
     /**
      * 根据id删除
      * @param id
@@ -97,6 +95,9 @@ public class BlogServiceImpl implements BlogService {
      * @param page
      * @return
      */
+
+
+
     @Override
     public Page<BlogVo> getByPage(Page<BlogVo> page) {
         //查询数据
