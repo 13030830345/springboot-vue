@@ -2,6 +2,7 @@ package com.jg.blog.service;
 
 
 import com.jg.blog.pojo.Blog;
+import com.jg.blog.utils.Page;
 import com.jg.blog.vo.BlogVo;
 
 /**
@@ -43,4 +44,13 @@ public interface BlogService {
      * @param id
      */
     void deleteById(String id);
+    /**
+     * 跟也查询
+     * @param page
+     * @return
+     */
+    Page<BlogVo> getByPage(Page<BlogVo> page);
+
+
+
 }

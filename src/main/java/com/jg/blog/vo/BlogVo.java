@@ -56,7 +56,7 @@ public class BlogVo implements Serializable {
     /**
      * 博客分类
      */
-    private Type type;
+    private String typeName;
 
     /**
      * 简介

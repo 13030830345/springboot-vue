@@ -1,14 +1,19 @@
 package com.jg.blog.controller;
 
 import afu.org.checkerframework.checker.oigj.qual.O;
+import com.jg.blog.enums.ResultEnum;
 import com.jg.blog.pojo.Blog;
 import com.jg.blog.pojo.Type;
 import com.jg.blog.service.BlogService;
+import com.jg.blog.utils.IdWorker;
+import com.jg.blog.utils.Page;
 import com.jg.blog.utils.Result;
+import com.jg.blog.utils.StringUtils;
 import com.jg.blog.vo.BlogVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -25,8 +30,11 @@ public class BlogController {
      */
     @Autowired
     BlogService blogService;
+    @Autowired
+    IdWorker idWorker;
     @RequestMapping ( value = "/save",method = RequestMethod.POST)
     public Result<Object> save(@RequestBody Blog blog){
+        blog.setBlogId(idWorker.nextId()+"");
         blogService.save(blog);
         return new Result<>("保存成功");
     }
@@ -70,14 +78,26 @@ public class BlogController {
        blogService.deleteById(id);
        return new Result<>("删除成功");
    }
+
     /**
      * 分页查询
+     * @param page
+     * @return
      */
-
-    @RequestMapping(value = "recomRead",method = RequestMethod.GET)
-    public Result<List<BlogVo>> recomRead(){
-        List<BlogVo> blogVoList =blogService.recomRead();
-        return new Result<>(blogVoList);
+    @RequestMapping(value = "/getByPage", method = RequestMethod.POST)
+    public Result<Page<BlogVo>> getByPage(@RequestBody Page<BlogVo> page) {
+        String sortColumn=page.getSortColumn();
+        if (StringUtils.isNotBlank(sortColumn)) {
+            // 排序列不为空
+            String[] sortColumns = {"blog_goods", "blog_read", "blog_collection",
+                    "type_name", "blog_comment", "created_time", "update_time"};
+            List<String> sortList = Arrays.asList(sortColumns);
+            if (!sortList.contains(sortColumn.toLowerCase())) {
+                return new Result<>(ResultEnum.PARAMS_ERROR.getCode(), "排序参数不合法！");
+            }
+        }
+        page = blogService.getByPage(page);
+        return new Result<>(page);
     }
 
 }

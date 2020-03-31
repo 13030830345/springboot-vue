@@ -2,6 +2,8 @@ package com.jg.blog.mapper;
 
 import com.jg.blog.pojo.Blog;
 
+import com.jg.blog.utils.Page;
+import com.jg.blog.vo.BlogVo;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
@@ -23,7 +25,7 @@ public interface BlogMapper {
     void save(Blog blog);
 
     /**
-     * 根据Id查询
+     * 根据id查询
      * @param id
      * @return
      */
@@ -36,15 +38,23 @@ public interface BlogMapper {
     void update(Blog blog);
 
     /**
-     * 根据id查询
-     * @param id
-     * @return
-     */
-    Blog readById(String id);
-
-    /**
      * 根据id删除
      * @param id
      */
     void deleteById(String id);
+
+    /**
+     * 分页查询
+     * @param page
+     * @return
+     */
+    List<BlogVo> getByPage(Page<BlogVo> page);
+
+    /**
+     * 查询总数
+     * @param page
+     * @return
+     */
+    int getCountByPage(Page<BlogVo> page);
+
 }

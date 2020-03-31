@@ -14,7 +14,8 @@ public enum  ResultEnum {
     ERROR(40000,"操作失败"),
     DATA_NOT_FOUND(40001,"查询失败"),
     PARAMS_NULL(40002,"参数不能为空"),
-    NOT_LOGIN(40003,"当前为登入")
+    NOT_LOGIN(40003,"当前为登入"),
+    PARAMS_ERROR(4000,"参数不合法")
     ;
 
 

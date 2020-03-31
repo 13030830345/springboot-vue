@@ -8,6 +8,7 @@ import com.jg.blog.service.BlogService;
 import com.jg.blog.utils.IdWorker;
 
 
+import com.jg.blog.utils.Page;
 import com.jg.blog.vo.BlogVo;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
@@ -75,7 +76,7 @@ public class BlogServiceImpl implements BlogService {
         BeanUtils.copyProperties(blog,blogVo);
         //查询分类
         Type type=typeMapper.getById(blog.getBlogType());
-        blogVo.setType(type);
+        blogVo.setTypeName(type.getTypeName());
         return  blogVo;
     }
 
@@ -86,5 +87,22 @@ public class BlogServiceImpl implements BlogService {
     @Override
     public void deleteById(String id) {
         blogMapper.deleteById(id);
+    }
+
+    /**
+     * 分页查询
+     * @param page
+     * @return
+     */
+    @Override
+    public Page<BlogVo> getByPage(Page<BlogVo> page) {
+        //查询数据
+        List<BlogVo> blogList=blogMapper.getByPage(page);
+        page.setList(blogList);
+        //查询总数
+        int totalCount=blogMapper.getCountByPage(page);
+
+        page.setTotalCount(totalCount);
+        return page;
     }
 }
