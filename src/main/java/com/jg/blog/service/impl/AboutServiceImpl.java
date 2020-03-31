@@ -18,6 +18,5 @@ import java.util.List;
 @Service
 @Slf4j
 public class AboutServiceImpl implements AboutService {
-
-
+    private String a ;
 }
